@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v6.1.1">
+        <ModelTarget name="bolt_25x8_button" targetId="4190523b783148a0bb68f350abb3c3b3" version="13.0" toolVersion="v6.1.1" bbox="-0.006566 -0.006563 -0.000015 0.006565 0.006568 0.030015" trackingMode="car" upVector="0.0 0.0 1.0" optimizeTrackingFor="low_feature_objects" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="bolt_25x8_button" assemblyId="94d10ec6691f408c82f5316feb4cd954">
+        <Part name="bolt_25x8_button" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>

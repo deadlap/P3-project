@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v6.1.1">
+        <ModelTarget name="wingnut_6x9" targetId="0c0ca00079a446b2a9ed79d0effd1759" version="13.0" toolVersion="v6.1.1" bbox="-0.017017 -0.006017 -0.000017 0.017017 0.006009 0.010016" trackingMode="car" upVector="0.0 0.0 1.0" optimizeTrackingFor="low_feature_objects" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="wingnut_6x9" assemblyId="d962d0e5e917451e8dc443a1f8b21b1c">
+        <Part name="wingnut_6x9" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>
