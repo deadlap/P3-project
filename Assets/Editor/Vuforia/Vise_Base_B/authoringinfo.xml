@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v6.1.1">
+        <ModelTarget name="Vise_Base_B" targetId="e4a6aea9e72340ff882dfd3df16731e4" version="13.0" toolVersion="v6.1.1" bbox="-0.129088 -0.026077 -0.035077 0.029088 0.018079 0.000047" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="Vise_Base_B" assemblyId="7042f9d6411e4c38a981b3b1ab413b8d">
+        <Part name="Vise_Base_B" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>

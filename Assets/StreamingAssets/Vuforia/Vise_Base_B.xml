@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QCARConfig>
+    <Tracking>
+        <ModelTarget name="Vise_Base_B" trackingMode="car" motionHint="static" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects"></ModelTarget>
+    </Tracking>
+    <Assembly name="Vise_Base_B" assemblyId="7042f9d6411e4c38a981b3b1ab413b8d">
+        <Part name="Vise_Base_B" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+</QCARConfig>
