@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v6.1.1">
+        <ModelTarget name="sliding_jaw_plate" targetId="b89336b44b224fa5b4eb30d8403661db" bbox="-0.100046 -0.035034 -0.000034 -0.084966 0.035034 0.026023" version="13.0" toolVersion="v6.1.1" trackingMode="car" upVector="1.0 0.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="base_clip" targetId="c794e2cdb6584473974c846f8c3a62d8" bbox="-0.113318 -0.035034 0.022066 -0.107538 0.035034 0.024938" version="13.0" toolVersion="v6.1.1" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="base_jaw_A" targetId="1d43412848d947f7a8d7e8790d84770a" bbox="-0.129088 -0.009927 -0.018077 0.029088 0.035079 0.026079" version="13.0" toolVersion="v6.1.1" trackingMode="car" upVector="0.0 0.0 1.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="base_jaw_B" targetId="cea2b40ab67f454999e7c8dc484627fa" bbox="-0.129088 -0.035077 -0.018077 0.029088 0.000047 0.026079" version="13.0" toolVersion="v6.1.1" trackingMode="car" upVector="0.0 0.0 1.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="base_jaw_plate" targetId="355cea9b2ebd4d0eb59282c1cc4b16cf" bbox="-0.106942 -0.035034 -0.000034 -0.099966 0.035034 0.026023" version="13.0" toolVersion="v6.1.1" trackingMode="car" upVector="-1.0 0.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="center_gear" targetId="787f0368924e4de9a94620fbc0b10346" bbox="-0.012033 -0.017783 -0.017796 0.055033 0.017796 0.017783" version="13.0" toolVersion="v6.1.1" trackingMode="car" upVector="1.0 0.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="sliding_jaw" targetId="99a6c15f480c404c82039a0f251038f8" bbox="-0.095900 -0.032500 -0.012275 0.006050 0.032481 0.026037" version="13.0" toolVersion="v6.1.1" trackingMode="car" upVector="0.0 0.0 -1.0" optimizeTrackingFor="default" realisticTextures="no" />
+        <ModelTarget name="main_gear" targetId="35f26fe3d6eb4d68b2898359a78ce045" bbox="-0.012010 -0.014915 -0.014915 0.000015 0.014915 0.014915" version="13.0" toolVersion="v6.1.1" trackingMode="car" upVector="1.0 0.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="sliding_jaw_plate" assemblyId="2b9f6e3396374ef49f0a942d18ab3432">
+        <Part name="sliding_jaw_plate" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="base_clip" assemblyId="9aafdbdcce634d9ba795308382de03de">
+        <Part name="base_clip" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="base_jaw_A" assemblyId="c782f121aadb4fafabc8df879cec0315">
+        <Part name="base_jaw_A" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="base_jaw_B" assemblyId="387d22a6d0ad4ddb97b9d83f8a339bcf">
+        <Part name="base_jaw_B" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="base_jaw_plate" assemblyId="66c29ef8144f42e9aa41338370a3f352">
+        <Part name="base_jaw_plate" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="center_gear" assemblyId="84e813f322ef4208a5d9445ab78f10e9">
+        <Part name="center_gear" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="sliding_jaw" assemblyId="c82ed678186e43a9a0446f89dbd09f1c">
+        <Part name="sliding_jaw" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="main_gear" assemblyId="706e63a42db34e6a9e232b1e0ceb16b2">
+        <Part name="main_gear" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <ModelTargetDatabase mtDBid="bdd6bee9dfce4c5e95e8698ec87f2971" name="Vice_test_1" toolVersion="v6.1.1" version="36.0" />
+</QCARInfo>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QCARConfig>
+    <Tracking>
+        <ModelTarget name="sliding_jaw_plate" trackingMode="car" motionHint="adaptive" upVector="1.0 0.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="base_clip" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="base_jaw_A" trackingMode="car" motionHint="adaptive" upVector="0.0 0.0 1.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="base_jaw_B" trackingMode="car" motionHint="adaptive" upVector="0.0 0.0 1.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="base_jaw_plate" trackingMode="car" motionHint="adaptive" upVector="-1.0 0.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="center_gear" trackingMode="car" motionHint="adaptive" upVector="1.0 0.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="sliding_jaw" trackingMode="car" motionHint="adaptive" upVector="0.0 0.0 -1.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="main_gear" trackingMode="car" motionHint="adaptive" upVector="1.0 0.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+    </Tracking>
+    <Assembly name="sliding_jaw_plate" assemblyId="2b9f6e3396374ef49f0a942d18ab3432">
+        <Part name="sliding_jaw_plate" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="base_clip" assemblyId="9aafdbdcce634d9ba795308382de03de">
+        <Part name="base_clip" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="base_jaw_A" assemblyId="c782f121aadb4fafabc8df879cec0315">
+        <Part name="base_jaw_A" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="base_jaw_B" assemblyId="387d22a6d0ad4ddb97b9d83f8a339bcf">
+        <Part name="base_jaw_B" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="base_jaw_plate" assemblyId="66c29ef8144f42e9aa41338370a3f352">
+        <Part name="base_jaw_plate" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="center_gear" assemblyId="84e813f322ef4208a5d9445ab78f10e9">
+        <Part name="center_gear" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="sliding_jaw" assemblyId="c82ed678186e43a9a0446f89dbd09f1c">
+        <Part name="sliding_jaw" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="main_gear" assemblyId="706e63a42db34e6a9e232b1e0ceb16b2">
+        <Part name="main_gear" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <ModelTargetDatabase name="Vice_test_1"> </ModelTargetDatabase>
+</QCARConfig>
