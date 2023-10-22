@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v6.1.1">
+        <ModelTarget name="vice_test" targetId="d531d196345d46c4a949cb73f4d26789" version="13.0" toolVersion="v6.1.1" bbox="-0.129088 -0.039915 -0.018077 0.055033 0.039915 0.032783" trackingMode="car" upVector="0.0 0.0 1.0" optimizeTrackingFor="default" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="vice_test" assemblyId="ae3f1b9cff0148abb8c1279d2e77f11d">
+        <Part name="vice_test" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>
