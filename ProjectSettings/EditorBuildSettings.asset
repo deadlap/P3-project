@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Manual.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/SearchPage.unity
+    guid: 41974dc5f9e813e418d58f36469febe6
+  - enabled: 1
+    path: Assets/Scenes/ItemPage.unity
+    guid: f4abc818cf9c9b3408e62d7c73bff911
+  - enabled: 1
+    path: Assets/Scenes/FrontPage.unity
+    guid: ba9ab7c6ae394d24d9d7aaf1113ddda7
+  - enabled: 1
+    path: Assets/Scenes/QRScanPage.unity
+    guid: 37b54a272f925404988918e0a041f0be
   m_configObjects: {}

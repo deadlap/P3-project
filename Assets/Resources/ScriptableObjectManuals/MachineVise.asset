@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857ac03229bb9a945b493bc4ee04382f, type: 3}
+  m_Name: MachineVise
+  m_EditorClassIdentifier: 
+  steps:
+  - parts:
+    - {fileID: 1596560343814329341, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
+    - {fileID: 919027481065202753, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
+    amounts: 0100000002000000
+  - parts:
+    - {fileID: 1596560343814329341, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
+    - {fileID: 4968077165818732922, guid: ae955d8f0b293594d94d201ecc1efd8c, type: 3}
+    amounts: 0100000001000000
