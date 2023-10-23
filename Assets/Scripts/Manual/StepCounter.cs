@@ -9,27 +9,27 @@ public class StepCounter : MonoBehaviour {
     void Start(){
         CurrentStep = 1;
         ReachedStep = 1;
-        MaxSteps = 20;
+        MaxSteps = ManualFetcher.GetManual().steps.Count;
     }
     public static bool NextStep(){
         CurrentStep += 1;
         if (CurrentStep > ReachedStep) {
             ReachedStep = CurrentStep;
         }
-        if (CurrentStep > MaxSteps) {
+        if (CurrentStep >= MaxSteps) {
             CurrentStep = MaxSteps;
             ReachedStep = MaxSteps;
-            return true;
+            return false;
         }
-        return false;
+        return true;
     }
     public static bool PreviousStep(){
         if (CurrentStep > 1){
             CurrentStep -= 1;
-            return false;
+            return true;
         } else {
             CurrentStep = 1;
-            return true;
+            return false;
         }
     }
 }

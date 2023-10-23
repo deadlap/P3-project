@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-[CreateAssetMenu(fileName = "Manual", menuName = "ScriptableObjects/Manual", order = 1)]
-public class Manual : ScriptableObject {
+public class Manual : MonoBehaviour {
     [SerializeField] public List<ManualStep> steps;
 }
