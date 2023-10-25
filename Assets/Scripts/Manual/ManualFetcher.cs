@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class ManualFetcher : MonoBehaviour {
     public static Manual CurrentManual;
-    void Start() {
+    void Awake() {
         CurrentManual = this.GetComponent<Manual>();
     }
 

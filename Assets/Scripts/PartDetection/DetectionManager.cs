@@ -10,24 +10,30 @@ public class DetectionManager : MonoBehaviour {
     // [SerializeField] GameObject detectionFolder;
     [SerializeField] UnityEngine.UI.Image partDetectionSignifier;
     string currentPartName;
+
+    void Awake() {
+        currentPartName = "";
+    }
     
-    public void SearchForPart(GameObject partToScan){
+    public void SearchForPart(GameObject _inputPart){
         VuforiaBehaviour.Instance.enabled = true;
         manualFolder.SetActive(false);
+        GameObject partToScan = _inputPart.GetComponentInChildren<PartButton>().partNeeded; 
         currentPartName = partToScan.name;
+        Debug.Log(currentPartName);
     }
 
     public void PartDetected(GameObject foundPart){
-        GameObject part = foundPart.GetComponentInChildren<PartButton>().partNeeded; 
-        if (part.name == currentPartName) {
-            partDetectionSignifier.color = new Color32(0,255,0,100);
+        Debug.Log(foundPart.name);
+        if (foundPart.name == currentPartName) {
+            partDetectionSignifier.color = new Color32(0,255,0,255);
             Invoke("ForceEndSearch",2.5f);   
         }
     }
 
     public void PartLost(GameObject lostPart){
         if (lostPart.name == currentPartName) {
-            partDetectionSignifier.color = new Color32(255,0,0,100);
+            partDetectionSignifier.color = new Color32(255,0,0,255);
         }
     }
     public void TryToEndSearch(GameObject foundPart){
@@ -40,6 +46,7 @@ public class DetectionManager : MonoBehaviour {
     }
 
     public void ForceEndSearch() {
+        partDetectionSignifier.color = new Color32(255,0,0,255);
         VuforiaBehaviour.Instance.enabled = false;
         currentPartName = "";
         manualFolder.SetActive(true);   
