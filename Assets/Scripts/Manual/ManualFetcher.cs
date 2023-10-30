@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 public class ManualFetcher : MonoBehaviour {
     public static Manual CurrentManual;
     void Awake() {
