@@ -14,6 +14,6 @@ public class StepNumberVisualizer : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        stepText.text = "Step nr. " + StepCounter.CurrentStep;
+        stepText.text = "Step nr. " + StepCounter.CurrentStep + " of " + StepCounter.MaxSteps;
     }
 }
