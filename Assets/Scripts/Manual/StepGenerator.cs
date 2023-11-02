@@ -23,11 +23,15 @@ public class StepGenerator : MonoBehaviour {
         GameObject.Instantiate(thisStep.instruction, instructionParentObject.transform);
     }
     public void DestroyChildren(){
-        foreach (Transform child in this.transform){
-            Destroy(child.gameObject);
+        if (this.transform.childCount != 0) {
+            foreach (Transform child in this.transform){
+                Destroy(child.gameObject);
+            }
         }
-        foreach (Transform child in instructionParentObject.transform){
-            Destroy(child.gameObject);
+        if (instructionParentObject.transform.childCount != 0) {
+            foreach (Transform child in instructionParentObject.transform){
+                Destroy(child.gameObject);
+            }
         }
     }
 }

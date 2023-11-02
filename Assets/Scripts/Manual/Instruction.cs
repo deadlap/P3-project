@@ -11,11 +11,9 @@ public class Instruction : MonoBehaviour {
             INSTANCEGAMEOBJECT = this.transform.gameObject;
         }
     }
-
-
-    public static void ResetRotation(){
-        if (INSTANCEGAMEOBJECT) {
-            INSTANCEGAMEOBJECT.transform.eulerAngles = new Vector3(0,0,0);
-        }
-    }
+    // public static void ResetRotation(){
+    //     if (INSTANCEGAMEOBJECT) {
+    //         INSTANCEGAMEOBJECT.transform.eulerAngles = new Vector3(0,0,0);
+    //     }
+    // }
 }
