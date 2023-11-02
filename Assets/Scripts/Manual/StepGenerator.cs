@@ -16,7 +16,7 @@ public class StepGenerator : MonoBehaviour {
             button.GetComponentInChildren<PartButton>().SetPart(
                 thisStep.parts[i],
                 thisStep.amounts[i],
-                thisStep.parts[i].GetComponent<PartSprite>().partSprite
+                thisStep.parts[i].GetComponent<PartInfo>().partSprite
                 );
             button.SetActive(true);
         }

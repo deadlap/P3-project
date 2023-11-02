@@ -8,7 +8,8 @@ public class PartButton : MonoBehaviour {
     public GameObject partNeeded;
     public int amount;
     public Sprite partSprite;
-    [SerializeField] private TextMeshProUGUI amountText;
+    [SerializeField] TextMeshProUGUI amountText;
+    [SerializeField] Image objectImage;
     public void SetPart(GameObject _part, int _amount, Sprite _sprite){
         amount = _amount;
         partNeeded = _part;
@@ -17,6 +18,6 @@ public class PartButton : MonoBehaviour {
 
     void Start() {
         amountText.text = amount + "x";
-        this.GetComponent<Image>().sprite = partSprite;
+        objectImage.sprite = partSprite;
     }
 }

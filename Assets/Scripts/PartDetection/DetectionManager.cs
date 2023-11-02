@@ -22,19 +22,16 @@ public class DetectionManager : MonoBehaviour {
     public void PartDetected(GameObject foundPart){
         Debug.Log(foundPart.name);
         if (foundPart.name == currentPartName) {
-            partDetectionSignifier.color = new Color32(0,255,0,255);
             Invoke("ForceEndSearch",2.5f);   
         }
     }
 
     public void PartLost(GameObject lostPart){
         if (lostPart.name == currentPartName) {
-            partDetectionSignifier.color = new Color32(255,0,0,255);
         }
     }
 
     public void ForceEndSearch() {
-        partDetectionSignifier.color = new Color32(255,0,0,255);
         currentPartName = "";
         UIModeToggle.toggleManual(true);
     }
