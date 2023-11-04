@@ -1,0 +1,2782 @@
+fileFormatVersion: 2
+guid: 8dd31600a6937df40905364f51ce912d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Fantastisk!
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 379
+      y: 1745
+      width: 164
+      height: 23
+    spriteID: 99e9b418e5b9fe7428b72ddd0b9e8d0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 1745}
+    spritePosition: {x: 185, y: 1088}
+  - name: Du har nu samlet dit produkt
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1782
+      width: 326
+      height: 22
+    spriteID: b28bf46ba52f4aa49a26868cffe2fc57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1782}
+    spritePosition: {x: 105, y: 1051}
+  - name: "Lad os h\xF8re din mening!"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1745
+      width: 367
+      height: 29
+    spriteID: 183386a8803f7aa42a5b168a8ec0483c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1745}
+    spritePosition: {x: 86, y: 958}
+  - name: 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 382
+      y: 1321
+      width: 82
+      height: 82
+    spriteID: 6be2af1ee43ec654f81f60d9c126016f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 382, y: 1321}
+    spritePosition: {x: 409, y: 864}
+  - name: 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 382
+      y: 1411
+      width: 82
+      height: 82
+    spriteID: ec11fa61184b8504d892008968dae66e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 382, y: 1411}
+    spritePosition: {x: 319, y: 864}
+  - name: 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1812
+      width: 82
+      height: 82
+    spriteID: 087bf5c84f115f34b841e9d93374c277
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1812}
+    spritePosition: {x: 229, y: 864}
+  - name: 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 94
+      y: 1812
+      width: 82
+      height: 82
+    spriteID: 52f92efe38f9b3146aafb1eb4c9185c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 94, y: 1812}
+    spritePosition: {x: 139, y: 864}
+  - name: 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 1812
+      width: 82
+      height: 82
+    spriteID: 758567eb1ef915546b3b012c733d745e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 1812}
+    spritePosition: {x: 49, y: 864}
+  - name: Afslut manual
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 338
+      y: 1782
+      width: 141
+      height: 17
+    spriteID: c707f7383113eb540804ea876079e49d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 338, y: 1782}
+    spritePosition: {x: 199, y: 210}
+  - name: Rectangle 12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1583
+      width: 480
+      height: 79
+    spriteID: e597f0be6534d944cba68fbd66962a73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3, y: 1582}
+    spritePosition: {x: 30, y: 179}
+  - name: BackButton
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 1321
+      width: 71
+      height: 71
+    spriteID: f99fc5e099556ef478354ec2168ce89f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 472, y: 1321}
+    spritePosition: {x: 34, y: 97}
+  - name: NextButton
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 382
+      y: 1501
+      width: 70
+      height: 71
+    spriteID: 7375eaa3156defd44bc476dd01420796
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 382, y: 1501}
+    spritePosition: {x: 437, y: 97}
+  - name: 3D
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 1648
+      width: 16
+      height: 9
+    spriteID: 6d7049b29f3196d4ab6ce5bc41595b14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 1648}
+    spritePosition: {x: 494, y: 1039}
+  - name: Ellipse 12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 1622
+      width: 24
+      height: 24
+    spriteID: 2a939b2b55b378f47bb48717cd9935ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 490, y: 1621}
+    spritePosition: {x: 490, y: 1032}
+  - name: Rectangle 24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 1411
+      width: 57
+      height: 32
+    spriteID: a5782df7023566f44b780ecf2bac26d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 472, y: 1411}
+    spritePosition: {x: 461, y: 1028}
+  - name: TestPicture
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1212
+      width: 370
+      height: 363
+    spriteID: f71af1f3563992b45879903fbf0275a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1212}
+    spritePosition: {x: 90, y: 449}
+  - name: QuestionmarkIcon
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 1583
+      width: 31
+      height: 31
+    spriteID: bcb1be621961dd44ca0f6c07449d675e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 1583}
+    spritePosition: {x: 474, y: 1084}
+  - name: CrossIcon
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 487
+      y: 1782
+      width: 25
+      height: 22
+    spriteID: 067ad5a66c7866749be78af529fefc3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 487, y: 1782}
+    spritePosition: {x: 32, y: 1088}
+  - name: Arrow!3D
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 382
+      y: 1212
+      width: 150
+      height: 101
+    spriteID: 6fd2b429e478f1042a70539d3569932e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 382, y: 1212}
+    spritePosition: {x: 195, y: 299}
+  - name: Step1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 531
+      y: 1583
+      width: 11
+      height: 11
+    spriteID: 4f228ae73e430a94a851a789d3af95c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 531, y: 1583}
+    spritePosition: {x: 146, y: 127}
+  - name: Step2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 531
+      y: 1602
+      width: 11
+      height: 11
+    spriteID: 7917995173c90dd47a34d7f47cd414c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 531, y: 1602}
+    spritePosition: {x: 186, y: 127}
+  - name: Step3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 1501
+      width: 11
+      height: 11
+    spriteID: be51ef737b179ba4db77c8de0b837f54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 472, y: 1501}
+    spritePosition: {x: 226, y: 127}
+  - name: Step4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 1520
+      width: 11
+      height: 11
+    spriteID: a2d01bf214b3b3b45a164482266df830
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 472, y: 1520}
+    spritePosition: {x: 266, y: 127}
+  - name: Step5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 1539
+      width: 11
+      height: 11
+    spriteID: ed8f996905d7d9e41bd94753eb7d9cc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 472, y: 1539}
+    spritePosition: {x: 306, y: 127}
+  - name: Step6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 1558
+      width: 11
+      height: 11
+    spriteID: 27cd9df794112474189cc519625108e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 472, y: 1558}
+    spritePosition: {x: 346, y: 127}
+  - name: Step7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 520
+      y: 1782
+      width: 21
+      height: 21
+    spriteID: cd4cace275807a44aab2a6b0c6789927
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 520, y: 1782}
+    spritePosition: {x: 381, y: 122}
+  - name: Button1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 1451
+      width: 18
+      height: 17
+    spriteID: 68be532654f9ae54bb88af0e9b287a2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 472, y: 1451}
+    spritePosition: {x: 137, y: 25}
+  - name: Button2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 1622
+      width: 18
+      height: 18
+    spriteID: 275cc2d7e37e1194bac470aad613d7b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 1622}
+    spritePosition: {x: 261, y: 25}
+  - name: Button3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 1476
+      width: 18
+      height: 17
+    spriteID: 2f1bc1569639b7e4d9cdc4ed6f646561
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 472, y: 1476}
+    spritePosition: {x: 379, y: 25}
+  - name: Bottom Bar
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1670
+      width: 540
+      height: 67
+    spriteID: 99801f7b6ef07ed4fbab1685e21755ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1670}
+    spritePosition: {x: 0, y: 0}
+  - name: Background
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 540
+      height: 1200
+    spriteID: 7ee94fc7ef19d414fb9ba5efb66c9de6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: 'Phone 1: Front Page'
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 1505d1fbd1d77c04d84a462ec19f54e6
+    layerID: 35
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: "S\xF8g efter produkt"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 23b132ea59a33e34bb167d211394496e
+    layerID: 34
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rum
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 67e8cb938da3ab74bac16ff304980524
+    layerID: 33
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Produkter
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 8111fd538d71a774b8d5744e5aa92789
+    layerID: 32
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: NewsFrame
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 95df622449884f349b36d77e405fb082
+    layerID: 31
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BellIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 21de6c7dd8e038348a4ebe01e42354a8
+    layerID: 30
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ProfileIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 6927c6f3d90134c4d9285523e5243528
+    layerID: 29
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: SearchBar
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 05540f22b912cab4da90dda73d135823
+    layerID: 28
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Frame
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: a9df549e1853a8f4382f15502bc9c1fa
+    layerID: 36
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: SearchIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 7
+    spriteID: f03112d412ac2c34fad01a0a85001ff5
+    layerID: 26
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ScanIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: cee20308401dafc458afb2178f104c5d
+    layerID: 24
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: IKEATabs
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 6083f9877d0349949aa933b816b7fd67
+    layerID: 23
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ManualIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 7e7c9e75b4bae194eba2458b15b766b6
+    layerID: 22
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BoatIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 11
+    spriteID: bff14b91782879b41bfb77cb6c422da9
+    layerID: 21
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: SearchIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 11
+    spriteID: a19c969a870a3e647a9c7afa4580f2e6
+    layerID: 20
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: HeartIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 11
+    spriteID: d60fa163c14de8e4c90fc5e283065109
+    layerID: 19
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: House2Icon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 3b241ee6f62a5fc47bd01d404bdea355
+    layerID: 18
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: HouseIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 27c06d1a8d6076f4d86282c658bcf60f
+    layerID: 17
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Frame
+    spriteName: 
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 897d6382333e09f4c96f0aeae1520567
+    layerID: 16
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Placeholders
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 8f1c595ca5288534197e0c847f884b55
+    layerID: 14
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Placeholder
+    spriteName: 
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 199a0c9726b7b16438a8a55c779c4459
+    layerID: 13
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Placeholder2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 862039c4443184040bcc163694e100bb
+    layerID: 12
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BottomBar
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: cbea5cb5f3c9d1c46821ad6a35449c11
+    layerID: 10
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 22
+    spriteID: e673d54aefee9f643a6d6be558f0a633
+    layerID: 9
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 22
+    spriteID: 3fa1e55af4e3ca44bbd5908741f7fe0a
+    layerID: 8
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button3
+    spriteName: 
+    isGroup: 0
+    parentIndex: 22
+    spriteID: 878ddd2f5933de6408853b756a82f785
+    layerID: 7
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bottom Bar
+    spriteName: 
+    isGroup: 0
+    parentIndex: 22
+    spriteID: e609fff70c8741e44a733d6fb05f3fd5
+    layerID: 6
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Background
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 0de4e2df14822ad4d8181d7ab273ca15
+    layerID: 4
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 'Phone 2.1: Search Page (2)'
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 5cc46f34b0e2e4946a60e8e17537e6fb
+    layerID: 65
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: SearchBar
+    spriteName: 
+    isGroup: 1
+    parentIndex: 28
+    spriteID: a5de543588e0de846879bf435a8298d3
+    layerID: 64
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CameraIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 29
+    spriteID: 6fca17063d84a85499b8630012fee8c7
+    layerID: 63
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: WritingLine
+    spriteName: 
+    isGroup: 0
+    parentIndex: 29
+    spriteID: ee8bccfceee2a574a8dccc631b3e34e0
+    layerID: 62
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ArrowIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 29
+    spriteID: c3abdf8ab285de7488695d663b850698
+    layerID: 61
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Frame
+    spriteName: 
+    isGroup: 0
+    parentIndex: 29
+    spriteID: c6b12806c2df37f4aba6a364994ffe0e
+    layerID: 60
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Tip! Pr\xF8v at s\xF8ge efter spisestuestol, rundt t\xE6ppe eller 4 s\xE6de"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 28
+    spriteID: 4b868de054018564295a107db34611fb
+    layerID: 58
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Nyligt K\xF8bt"
+    spriteName: 
+    isGroup: 1
+    parentIndex: 28
+    spriteID: 9cee252420a0b694e92dc4fae039173e
+    layerID: 57
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Placeholder
+    spriteName: 
+    isGroup: 0
+    parentIndex: 35
+    spriteID: d473be308992d9d40854933063d067d2
+    layerID: 56
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Placeholder
+    spriteName: 
+    isGroup: 0
+    parentIndex: 35
+    spriteID: 282e62fff3bfec341af655ff0b972ffe
+    layerID: 55
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Placeholder
+    spriteName: 
+    isGroup: 0
+    parentIndex: 35
+    spriteID: 8a815ccea9b3b1c4d98da51790028696
+    layerID: 54
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Nyligt K\xF8bt"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 35
+    spriteID: c5535286f26259645a7cb74a4d1be5b7
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Senest S\xF8gt"
+    spriteName: 
+    isGroup: 1
+    parentIndex: 28
+    spriteID: 56e754275294c474a9451ce03224b775
+    layerID: 51
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Placeholder
+    spriteName: 
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 9174bef6587a0134b90c36568446b300
+    layerID: 50
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Placeholder
+    spriteName: 
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 1a0c690a73017c94f9050e8bb7cb5444
+    layerID: 49
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Placeholder
+    spriteName: 
+    isGroup: 0
+    parentIndex: 40
+    spriteID: c9c4c4d359cce38469946c5e0730b8e6
+    layerID: 48
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Senest S\xF8gt"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 845f0f5b54cc7044ab6af35a735e699d
+    layerID: 47
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Keyboard
+    spriteName: 
+    isGroup: 0
+    parentIndex: 28
+    spriteID: cb7da132ff1ef9043ad37da0e02bb906
+    layerID: 45
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BottomBar
+    spriteName: 
+    isGroup: 1
+    parentIndex: 28
+    spriteID: 1bd86d82dff29e249b0ed73f37888038
+    layerID: 44
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 46
+    spriteID: 84c3b24069cf50e46b72a40d22a128b4
+    layerID: 43
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 46
+    spriteID: 2a6fe879a8a2ec645b62f711965a91c8
+    layerID: 42
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button3
+    spriteName: 
+    isGroup: 0
+    parentIndex: 46
+    spriteID: b30743f3d820c52439320d44881933ce
+    layerID: 41
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bottom Bar
+    spriteName: 
+    isGroup: 0
+    parentIndex: 46
+    spriteID: d5e4158a3c965ad41be9a20d32e88715
+    layerID: 40
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Background
+    spriteName: 
+    isGroup: 0
+    parentIndex: 28
+    spriteID: 04e674af1f3989b48ba3f1e4a69b731b
+    layerID: 38
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 'Phone 2.2: 2nd Search Page (2.1)'
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 81948e252a128a749a1d07833e0aeef6
+    layerID: 83
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: ScanIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 52
+    spriteID: 8fd8004f45564114099e95f20dc722ee
+    layerID: 82
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Scan stregkode
+    spriteName: 
+    isGroup: 0
+    parentIndex: 52
+    spriteID: 94aa996d4894b82448ed21237e8e399b
+    layerID: 81
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CrossIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 52
+    spriteID: 77072e2b6b350ff4783c4cd3ff6aafeb
+    layerID: 80
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: QuestionmarkIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 52
+    spriteID: 6e97be8b781c1c5408d2f5f69446d581
+    layerID: 79
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Indtast artikelnummer
+    spriteName: 
+    isGroup: 1
+    parentIndex: 52
+    spriteID: 62ff9c8cb033024418ad1e37fcdaac0a
+    layerID: 78
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Indtast artikelnummer
+    spriteName: 
+    isGroup: 0
+    parentIndex: 57
+    spriteID: d5c14e3b55a7eb34bb1d72ff27e30959
+    layerID: 77
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rectangle 13
+    spriteName: 
+    isGroup: 0
+    parentIndex: 57
+    spriteID: 587b63acd736def43a03bbb2b19efccf
+    layerID: 76
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BottomBar
+    spriteName: 
+    isGroup: 1
+    parentIndex: 52
+    spriteID: ef0d8224c89daa24cbfd9427e8ff1b68
+    layerID: 74
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 60
+    spriteID: 4368c373f3f49e447b81c91b8291c0d9
+    layerID: 73
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 60
+    spriteID: de4e6c83cb98af444a5407ddb9471a63
+    layerID: 72
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button3
+    spriteName: 
+    isGroup: 0
+    parentIndex: 60
+    spriteID: e661abe041840a64bb57fd013c3f3e22
+    layerID: 71
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bottom Bar
+    spriteName: 
+    isGroup: 0
+    parentIndex: 60
+    spriteID: 26af1b84f88295342988abc956dbe838
+    layerID: 70
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TransparentBackground
+    spriteName: 
+    isGroup: 0
+    parentIndex: 52
+    spriteID: 4c9bba9622c82514f939590df280b760
+    layerID: 68
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TestBillede
+    spriteName: 
+    isGroup: 0
+    parentIndex: 52
+    spriteID: 5a779c094e9c19f4db95f4dc421b822a
+    layerID: 67
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 'Phone 3: Selecting Item (3)'
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 1a5cf28f076ac744b9dcbba36d76d036
+    layerID: 124
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: "Type, farve, m\xE5l (cm)"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 67
+    spriteID: 85478c2d6d8364b47a470dfd7660dd3a
+    layerID: 123
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Navn
+    spriteName: 
+    isGroup: 0
+    parentIndex: 67
+    spriteID: c3645f9a7ad02bf46bedac1b822f039e
+    layerID: 122
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rectangle 14
+    spriteName: 
+    isGroup: 0
+    parentIndex: 67
+    spriteID: 33ba289193cd9cf40af876ba834d112d
+    layerID: 121
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vis I 3D
+    spriteName: 
+    isGroup: 1
+    parentIndex: 67
+    spriteID: cf7fdacb8d3e624439685202e7bf4bd9
+    layerID: 120
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vis i 3D
+    spriteName: 
+    isGroup: 0
+    parentIndex: 71
+    spriteID: 2eef3043665f3714f8d1262b7b4b1c09
+    layerID: 119
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Arrow!3D
+    spriteName: 
+    isGroup: 0
+    parentIndex: 71
+    spriteID: 579500789876bfb47bfb5dbbc01768b7
+    layerID: 118
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rectangle 15
+    spriteName: 
+    isGroup: 0
+    parentIndex: 71
+    spriteID: 3ad5aa105cf423f4ca5c9f4b891e77bc
+    layerID: 117
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ArrowIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 67
+    spriteID: 9cabefde8ae0bdd4ea1c5f763c36497b
+    layerID: 115
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ShareIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 67
+    spriteID: d2d3c43b2855f684cacdf6fc4376fd03
+    layerID: 114
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: FavoriteIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 67
+    spriteID: 25d20c95fcf5b5648adf67079ae770b4
+    layerID: 113
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Placeholders
+    spriteName: 
+    isGroup: 1
+    parentIndex: 67
+    spriteID: a8e3039303faabd42b46917b07a11f9e
+    layerID: 112
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rectangle 17
+    spriteName: 
+    isGroup: 0
+    parentIndex: 78
+    spriteID: 7c561c0ea68763f49a9ffd1bfbc01635
+    layerID: 111
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rectangle 20
+    spriteName: 
+    isGroup: 0
+    parentIndex: 78
+    spriteID: c96ac730cabfef141a8a01c269dd9fa6
+    layerID: 110
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rectangle 19
+    spriteName: 
+    isGroup: 0
+    parentIndex: 78
+    spriteID: 2cd5fd747380f7742b4b1b289e79d1de
+    layerID: 109
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rectangle 18
+    spriteName: 
+    isGroup: 0
+    parentIndex: 78
+    spriteID: b78e107dc3c246e4e8127144e6bbd19e
+    layerID: 108
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rectangle 16
+    spriteName: 
+    isGroup: 0
+    parentIndex: 78
+    spriteID: b4f1602eb990624438e53b2d78fc063e
+    layerID: 107
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Start manual
+    spriteName: 
+    isGroup: 1
+    parentIndex: 67
+    spriteID: 32fbabdce9e7a8448b792b49d2fd00b4
+    layerID: 105
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Start manual
+    spriteName: 
+    isGroup: 0
+    parentIndex: 84
+    spriteID: e3cd1a9db962e3241869c83e26630bdb
+    layerID: 104
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rectangle 12
+    spriteName: 
+    isGroup: 0
+    parentIndex: 84
+    spriteID: c998f29f35c41ae4e864a93371f9dacf
+    layerID: 103
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: IKEABar
+    spriteName: 
+    isGroup: 1
+    parentIndex: 67
+    spriteID: 1fa02d87a7892ad469b51298f7afe1a0
+    layerID: 101
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Manual
+    spriteName: 
+    isGroup: 0
+    parentIndex: 87
+    spriteID: df7a4d266e2fbff4cb615cea3a4885f5
+    layerID: 100
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Boat
+    spriteName: 
+    isGroup: 0
+    parentIndex: 87
+    spriteID: 2dfddbcf11d6b7749ab02e28d33eb119
+    layerID: 99
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Search
+    spriteName: 
+    isGroup: 0
+    parentIndex: 87
+    spriteID: 9b0b730197da19a45a4b0fb4c77c3d70
+    layerID: 98
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: HeartIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 87
+    spriteID: 0a6397399229b284dabf51423ba64481
+    layerID: 97
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: House2Icon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 87
+    spriteID: 76bdd2231806aae4e889dd21df12dd45
+    layerID: 96
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: HouseIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 87
+    spriteID: dde99833f1fb45f40a3c098943d1333d
+    layerID: 95
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: IKEABar
+    spriteName: 
+    isGroup: 0
+    parentIndex: 87
+    spriteID: 20a191d1026c3364ebbdbc8aa9db0baf
+    layerID: 94
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BottomBar
+    spriteName: 
+    isGroup: 1
+    parentIndex: 67
+    spriteID: 2cf835e60f64cbd40b5ab14fcd60c81a
+    layerID: 92
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 95
+    spriteID: ac0ff834e7f4ec64cb66f771f9f9a2d9
+    layerID: 91
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 95
+    spriteID: 7a2b3d3fec71ef240bd5c99ab7aa36a4
+    layerID: 90
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button3
+    spriteName: 
+    isGroup: 0
+    parentIndex: 95
+    spriteID: ca6a01d48f7ecbb49a93159031ed7877
+    layerID: 89
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bottom Bar
+    spriteName: 
+    isGroup: 0
+    parentIndex: 95
+    spriteID: e74237e63f364f24daf57c0cd5c04b61
+    layerID: 88
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Background
+    spriteName: 
+    isGroup: 0
+    parentIndex: 67
+    spriteID: 5706de2754d483546a723bf2b4037ee2
+    layerID: 86
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 'Phone 4: Step One'
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: f215aac00e3d5fc4790b2d8de6a2d917
+    layerID: 187
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Trin 1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 101
+    spriteID: 919ab9afce3638e42b414df23cce55b9
+    layerID: 186
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BackButton
+    spriteName: 
+    isGroup: 0
+    parentIndex: 101
+    spriteID: 6128c6e8407887a4aad5f6c3ba9405ea
+    layerID: 185
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: NextButton
+    spriteName: 
+    isGroup: 0
+    parentIndex: 101
+    spriteID: 64a75d3ec362c554182c17b9d798eb47
+    layerID: 184
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Animation Dot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 101
+    spriteID: 3f2f75ff1b7fe5e4bb5b40f7da6b89d6
+    layerID: 183
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 3DManualSlider
+    spriteName: 
+    isGroup: 0
+    parentIndex: 101
+    spriteID: 71c095b709278e6468e5dfb6e0822f6f
+    layerID: 180
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Items to scan
+    spriteName: 
+    isGroup: 1
+    parentIndex: 101
+    spriteID: b6ce6f916ee04b64dac02e2a7b5f0d4b
+    layerID: 173
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 1st
+    spriteName: 
+    isGroup: 1
+    parentIndex: 107
+    spriteID: 7e4e5ff647a429c45805a56c8302b9d7
+    layerID: 172
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 3x
+    spriteName: 
+    isGroup: 0
+    parentIndex: 108
+    spriteID: 2b13186adadb63a44b07c73f04112f0f
+    layerID: 171
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Ellipse 15
+    spriteName: 
+    isGroup: 0
+    parentIndex: 108
+    spriteID: 2964c0b7767493742ad6c9326e33b24b
+    layerID: 170
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TestPictureSmall
+    spriteName: 
+    isGroup: 0
+    parentIndex: 108
+    spriteID: 9aab57ef0e2930e4d942cc4b020c357f
+    layerID: 169
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 2nd
+    spriteName: 
+    isGroup: 1
+    parentIndex: 107
+    spriteID: 301375b54e9e1c64988210bcd52d6d23
+    layerID: 167
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 3x
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: b73475c6a21dbb74f9cd13c81bc34498
+    layerID: 166
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Ellipse 14
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 600eba5b0d074464ead10c0b2c822eee
+    layerID: 165
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TestPictureSmall
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 380ee6802c1e81c4d8b012b8a4a0b9cd
+    layerID: 164
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 3rd
+    spriteName: 
+    isGroup: 1
+    parentIndex: 107
+    spriteID: 75baffef7ddcfe445ad173b1d7bf6777
+    layerID: 162
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 3x
+    spriteName: 
+    isGroup: 0
+    parentIndex: 116
+    spriteID: 8119d06a605c3d04286800c7a76a5837
+    layerID: 161
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Ellipse 16
+    spriteName: 
+    isGroup: 0
+    parentIndex: 116
+    spriteID: 759326b73a534c94994725ecab9c048f
+    layerID: 160
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TestPictureSmall
+    spriteName: 
+    isGroup: 0
+    parentIndex: 116
+    spriteID: 485c6cefdd08bb642b232de3fbda5dbc
+    layerID: 159
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Animation Progress Bar
+    spriteName: 
+    isGroup: 1
+    parentIndex: 101
+    spriteID: 5b44e7a8feb545a4bb8c31a8cb003432
+    layerID: 156
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Vector
+    spriteName: 
+    isGroup: 0
+    parentIndex: 120
+    spriteID: bea5687d3327a884a9dd2ec10ba7cb2f
+    layerID: 155
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pause
+    spriteName: 
+    isGroup: 0
+    parentIndex: 120
+    spriteID: bd25cd7acbb677340b79f4ac3408b316
+    layerID: 154
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Slider
+    spriteName: 
+    isGroup: 0
+    parentIndex: 120
+    spriteID: 109bc9cce08dca54a8b80d1cd19fab24
+    layerID: 153
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Speed
+    spriteName: 
+    isGroup: 1
+    parentIndex: 120
+    spriteID: db4b9751d8f50464ebb1cf68c3975c38
+    layerID: 152
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 0.25x
+    spriteName: 
+    isGroup: 0
+    parentIndex: 124
+    spriteID: 5bcca01ae22a0164a99a7f86d2e8ed1f
+    layerID: 151
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 0.5x
+    spriteName: 
+    isGroup: 0
+    parentIndex: 124
+    spriteID: 19854bdd2ddcfcd4ebd2024c3026aa12
+    layerID: 150
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 1x
+    spriteName: 
+    isGroup: 0
+    parentIndex: 124
+    spriteID: df33dfc6bc0421c4686f5dd04a2e684f
+    layerID: 149
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TestPicture
+    spriteName: 
+    isGroup: 0
+    parentIndex: 101
+    spriteID: c1f6ecde7430ee94c98762083edaac77
+    layerID: 146
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: QuestionmarkIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 101
+    spriteID: a2b56ce37f6e3984199b2ac97f6bbd95
+    layerID: 145
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: CrossIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 101
+    spriteID: 5da028b02ace7d94fbda9a35419525de
+    layerID: 144
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Arrow!3D
+    spriteName: 
+    isGroup: 0
+    parentIndex: 101
+    spriteID: 840f5b7535a53e94891466ccf99721c2
+    layerID: 143
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ProgressBar
+    spriteName: 
+    isGroup: 1
+    parentIndex: 101
+    spriteID: ecb6606855e76794f88b9d232c18219a
+    layerID: 142
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Step1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 132
+    spriteID: a92cb305c8702e1459cfab5fcad8c510
+    layerID: 141
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Step2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 132
+    spriteID: 4c10bfffe90dd66409ee49bf43b51caa
+    layerID: 140
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Step3
+    spriteName: 
+    isGroup: 0
+    parentIndex: 132
+    spriteID: d56d25a45e57bc947bdb266938cd44e7
+    layerID: 139
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Step4
+    spriteName: 
+    isGroup: 0
+    parentIndex: 132
+    spriteID: ffb04a9286c96fd4c8c53490f7785a87
+    layerID: 138
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Step5
+    spriteName: 
+    isGroup: 0
+    parentIndex: 132
+    spriteID: fc0ca15640821e043bd95c5e8a97e7d5
+    layerID: 137
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Step6
+    spriteName: 
+    isGroup: 0
+    parentIndex: 132
+    spriteID: df3a1832a2140e243a86be15932c63f6
+    layerID: 136
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Step7
+    spriteName: 
+    isGroup: 0
+    parentIndex: 132
+    spriteID: 29f7a39c62678294b8971e64065cadd9
+    layerID: 135
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BottomBar
+    spriteName: 
+    isGroup: 1
+    parentIndex: 101
+    spriteID: e61e7730e122f6844a61837328cf1c77
+    layerID: 133
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 140
+    spriteID: 62ead1d404b636c459da323786b74d84
+    layerID: 132
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 140
+    spriteID: 64933393e6111d94b8cfa6140ede5335
+    layerID: 131
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button3
+    spriteName: 
+    isGroup: 0
+    parentIndex: 140
+    spriteID: a41734c90945f4e469221d960b5ba540
+    layerID: 130
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bottom Bar
+    spriteName: 
+    isGroup: 0
+    parentIndex: 140
+    spriteID: 241e26b14c02ff747968a9f7876bcdb6
+    layerID: 129
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Background
+    spriteName: 
+    isGroup: 0
+    parentIndex: 101
+    spriteID: 4227ca037d6c4d64bb4e3b3566a42287
+    layerID: 127
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 'Phone 5: Scan Item'
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: da650a07bb4ec344c9eb59a83e1f8eae
+    layerID: 205
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: "Scan \u201CObjektNavn\u201D"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 146
+    spriteID: a994ec2b7e9db644298ff20c72a274a6
+    layerID: 204
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TestPictureSmall
+    spriteName: 
+    isGroup: 0
+    parentIndex: 146
+    spriteID: 357b100c52fb7244a84f475fa650bee5
+    layerID: 203
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ArrowIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 146
+    spriteID: 2846ac0b9ac885845b78290428f64b4e
+    layerID: 202
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: QuestionmarkIcon
+    spriteName: 
+    isGroup: 0
+    parentIndex: 146
+    spriteID: 7ef61b2f8ed0c0a4493062333457591d
+    layerID: 201
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Plac\xE9r object i vinduet"
+    spriteName: 
+    isGroup: 1
+    parentIndex: 146
+    spriteID: 92c3fd9570a0a3f41a843ed852b458f9
+    layerID: 200
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Plac\xE9r objekt i vinduet"
+    spriteName: 
+    isGroup: 0
+    parentIndex: 151
+    spriteID: bf6d21b74a4e11e4290407cddd388e7f
+    layerID: 199
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rectangle 13
+    spriteName: 
+    isGroup: 0
+    parentIndex: 151
+    spriteID: 6a858b95172f5b74b8e0633d31bef665
+    layerID: 198
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BottomBar
+    spriteName: 
+    isGroup: 1
+    parentIndex: 146
+    spriteID: a2a928760a8833d4b810cf099cb06e0e
+    layerID: 196
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 154
+    spriteID: 50cbcf6ad601d12498c37315131ea11d
+    layerID: 195
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 154
+    spriteID: 9df440a402d451e47908d0fe8755503f
+    layerID: 194
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button3
+    spriteName: 
+    isGroup: 0
+    parentIndex: 154
+    spriteID: 0d4366633253254499e072a51d9aa038
+    layerID: 193
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bottom Bar
+    spriteName: 
+    isGroup: 0
+    parentIndex: 154
+    spriteID: 593fe68dd4250b047bec95e573c49c8f
+    layerID: 192
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TransparentBackground
+    spriteName: 
+    isGroup: 0
+    parentIndex: 146
+    spriteID: 4e47965fe6d02b946a9f6efd20b90ae2
+    layerID: 190
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TestPicture
+    spriteName: 
+    isGroup: 0
+    parentIndex: 146
+    spriteID: 6fd0326664a777c4da170aa7918d81cf
+    layerID: 189
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 'Phone 6: Feedback'
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 32dc568cee2621c46a63d18e784789b6
+    layerID: 250
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Fantastisk!
+    spriteName: Fantastisk!
+    isGroup: 0
+    parentIndex: 161
+    spriteID: 99e9b418e5b9fe7428b72ddd0b9e8d0f
+    layerID: 249
+    mosaicPosition: {x: 379, y: 1745}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Du har nu samlet dit produkt
+    spriteName: Du har nu samlet dit produkt
+    isGroup: 0
+    parentIndex: 161
+    spriteID: b28bf46ba52f4aa49a26868cffe2fc57
+    layerID: 248
+    mosaicPosition: {x: 4, y: 1782}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Rating
+    spriteName: 
+    isGroup: 1
+    parentIndex: 161
+    spriteID: e727ab0509700344f9e289a766e4a6d4
+    layerID: 247
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: "Lad os h\xF8re din mening!"
+    spriteName: "Lad os h\xF8re din mening!"
+    isGroup: 0
+    parentIndex: 164
+    spriteID: 183386a8803f7aa42a5b168a8ec0483c
+    layerID: 246
+    mosaicPosition: {x: 4, y: 1745}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 5
+    spriteName: 5
+    isGroup: 0
+    parentIndex: 164
+    spriteID: 6be2af1ee43ec654f81f60d9c126016f
+    layerID: 245
+    mosaicPosition: {x: 382, y: 1321}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 4
+    spriteName: 4
+    isGroup: 0
+    parentIndex: 164
+    spriteID: ec11fa61184b8504d892008968dae66e
+    layerID: 244
+    mosaicPosition: {x: 382, y: 1411}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 3
+    spriteName: 3
+    isGroup: 0
+    parentIndex: 164
+    spriteID: 087bf5c84f115f34b841e9d93374c277
+    layerID: 243
+    mosaicPosition: {x: 4, y: 1812}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 2
+    spriteName: 2
+    isGroup: 0
+    parentIndex: 164
+    spriteID: 52f92efe38f9b3146aafb1eb4c9185c0
+    layerID: 242
+    mosaicPosition: {x: 94, y: 1812}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 1
+    spriteName: 1
+    isGroup: 0
+    parentIndex: 164
+    spriteID: 758567eb1ef915546b3b012c733d745e
+    layerID: 241
+    mosaicPosition: {x: 184, y: 1812}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Afslut Manual
+    spriteName: 
+    isGroup: 1
+    parentIndex: 161
+    spriteID: 17c01540c845e6049a64868ec7f407a1
+    layerID: 239
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Afslut manual
+    spriteName: Afslut manual
+    isGroup: 0
+    parentIndex: 171
+    spriteID: c707f7383113eb540804ea876079e49d
+    layerID: 238
+    mosaicPosition: {x: 338, y: 1782}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Rectangle 12
+    spriteName: Rectangle 12
+    isGroup: 0
+    parentIndex: 171
+    spriteID: e597f0be6534d944cba68fbd66962a73
+    layerID: 237
+    mosaicPosition: {x: 4, y: 1583}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BackButton
+    spriteName: BackButton
+    isGroup: 0
+    parentIndex: 161
+    spriteID: f99fc5e099556ef478354ec2168ce89f
+    layerID: 235
+    mosaicPosition: {x: 472, y: 1321}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: NextButton
+    spriteName: NextButton
+    isGroup: 0
+    parentIndex: 161
+    spriteID: 7375eaa3156defd44bc476dd01420796
+    layerID: 234
+    mosaicPosition: {x: 382, y: 1501}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 3D Slider
+    spriteName: 
+    isGroup: 1
+    parentIndex: 161
+    spriteID: ef173aba5692387408a568dd4bb1882a
+    layerID: 233
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Slider
+    spriteName: 
+    isGroup: 1
+    parentIndex: 176
+    spriteID: d9609e7824cc1054488385408866c3c6
+    layerID: 232
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 3D
+    spriteName: 3D
+    isGroup: 0
+    parentIndex: 177
+    spriteID: 6d7049b29f3196d4ab6ce5bc41595b14
+    layerID: 231
+    mosaicPosition: {x: 524, y: 1648}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ellipse 12
+    spriteName: Ellipse 12
+    isGroup: 0
+    parentIndex: 177
+    spriteID: 2a939b2b55b378f47bb48717cd9935ea
+    layerID: 230
+    mosaicPosition: {x: 492, y: 1622}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Rectangle 24
+    spriteName: Rectangle 24
+    isGroup: 0
+    parentIndex: 176
+    spriteID: a5782df7023566f44b780ecf2bac26d0
+    layerID: 228
+    mosaicPosition: {x: 472, y: 1411}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TestPicture
+    spriteName: TestPicture
+    isGroup: 0
+    parentIndex: 161
+    spriteID: f71af1f3563992b45879903fbf0275a8
+    layerID: 226
+    mosaicPosition: {x: 4, y: 1212}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: QuestionmarkIcon
+    spriteName: QuestionmarkIcon
+    isGroup: 0
+    parentIndex: 161
+    spriteID: bcb1be621961dd44ca0f6c07449d675e
+    layerID: 225
+    mosaicPosition: {x: 492, y: 1583}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CrossIcon
+    spriteName: CrossIcon
+    isGroup: 0
+    parentIndex: 161
+    spriteID: 067ad5a66c7866749be78af529fefc3e
+    layerID: 224
+    mosaicPosition: {x: 487, y: 1782}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arrow!3D
+    spriteName: Arrow!3D
+    isGroup: 0
+    parentIndex: 161
+    spriteID: 6fd2b429e478f1042a70539d3569932e
+    layerID: 223
+    mosaicPosition: {x: 382, y: 1212}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ProgressBar
+    spriteName: 
+    isGroup: 1
+    parentIndex: 161
+    spriteID: 1cb7747be194bfc40aa25f115f4115a7
+    layerID: 222
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Step1
+    spriteName: Step1
+    isGroup: 0
+    parentIndex: 185
+    spriteID: 4f228ae73e430a94a851a789d3af95c0
+    layerID: 221
+    mosaicPosition: {x: 531, y: 1583}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Step2
+    spriteName: Step2
+    isGroup: 0
+    parentIndex: 185
+    spriteID: 7917995173c90dd47a34d7f47cd414c2
+    layerID: 220
+    mosaicPosition: {x: 531, y: 1602}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Step3
+    spriteName: Step3
+    isGroup: 0
+    parentIndex: 185
+    spriteID: be51ef737b179ba4db77c8de0b837f54
+    layerID: 219
+    mosaicPosition: {x: 472, y: 1501}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Step4
+    spriteName: Step4
+    isGroup: 0
+    parentIndex: 185
+    spriteID: a2d01bf214b3b3b45a164482266df830
+    layerID: 218
+    mosaicPosition: {x: 472, y: 1520}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Step5
+    spriteName: Step5
+    isGroup: 0
+    parentIndex: 185
+    spriteID: ed8f996905d7d9e41bd94753eb7d9cc9
+    layerID: 217
+    mosaicPosition: {x: 472, y: 1539}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Step6
+    spriteName: Step6
+    isGroup: 0
+    parentIndex: 185
+    spriteID: 27cd9df794112474189cc519625108e0
+    layerID: 216
+    mosaicPosition: {x: 472, y: 1558}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Step7
+    spriteName: Step7
+    isGroup: 0
+    parentIndex: 185
+    spriteID: cd4cace275807a44aab2a6b0c6789927
+    layerID: 215
+    mosaicPosition: {x: 520, y: 1782}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BottomBar
+    spriteName: 
+    isGroup: 1
+    parentIndex: 161
+    spriteID: 986de37d00f23cd4fb0398cf01155bef
+    layerID: 213
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Button1
+    spriteName: Button1
+    isGroup: 0
+    parentIndex: 193
+    spriteID: 68be532654f9ae54bb88af0e9b287a2a
+    layerID: 212
+    mosaicPosition: {x: 472, y: 1451}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Button2
+    spriteName: Button2
+    isGroup: 0
+    parentIndex: 193
+    spriteID: 275cc2d7e37e1194bac470aad613d7b7
+    layerID: 211
+    mosaicPosition: {x: 524, y: 1622}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Button3
+    spriteName: Button3
+    isGroup: 0
+    parentIndex: 193
+    spriteID: 2f1bc1569639b7e4d9cdc4ed6f646561
+    layerID: 210
+    mosaicPosition: {x: 472, y: 1476}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bottom Bar
+    spriteName: Bottom Bar
+    isGroup: 0
+    parentIndex: 193
+    spriteID: 99801f7b6ef07ed4fbab1685e21755ec
+    layerID: 209
+    mosaicPosition: {x: 4, y: 1670}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: 161
+    spriteID: 7ee94fc7ef19d414fb9ba5efb66c9de6
+    layerID: 207
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

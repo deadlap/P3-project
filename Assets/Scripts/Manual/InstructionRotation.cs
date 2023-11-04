@@ -6,7 +6,7 @@ public class InstructionRotation : MonoBehaviour {
     GameObject rotateAround;
     float speed = 20f;
     void Start(){
-        rotateAround = this.transform.gameObject;
+        rotateAround = transform.gameObject;
     }
 
     public static void ResetCamera(){

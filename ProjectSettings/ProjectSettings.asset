@@ -157,6 +157,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.P3project
+    Standalone: com.DefaultCompany.P3-project
   buildNumber:
     Standalone: 0
     VisionOS: 0
