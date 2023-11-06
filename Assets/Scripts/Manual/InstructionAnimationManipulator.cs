@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.EventSystems;
 
 public class InstructionAnimationManipulator : MonoBehaviour {
     [SerializeField] Slider animProgressSlider;
@@ -26,11 +27,12 @@ public class InstructionAnimationManipulator : MonoBehaviour {
     public void ProgressSlider() {
         currentAnim.SetFloat("AnimationTime", animProgressSlider.value);
     }
-
+    
     public void StartPlayback() {
         isPlaying = !isPlaying;
         if (!currentAnim) return;
-        currentAnim.SetFloat("SpeedMultiplier", Convert.ToSingle(isPlaying)); 
+        // currentAnim.SetFloat("SpeedMultiplier", Convert.ToSingle(isPlaying));
+        currentAnim.speed = Convert.ToSingle(isPlaying);
         //Lav en ny ting der hedder isplaying eller noget i stedet for SpeedMultiplier
         //Da vi skal bruge SpeedMultiplier i ChangeAnimationSpeed
     }
