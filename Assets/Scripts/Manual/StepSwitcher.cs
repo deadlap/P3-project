@@ -6,7 +6,7 @@ public class StepSwitcher : MonoBehaviour {
     [SerializeField] StepGenerator generator;
     public void ChangeStep(int change){
         StepCounter.ChangeStep(change);
-        InstructionRotation.ForceResetCamera();
+        InstructionRotation.ForceResetRotation();
         generator.DestroyChildren();
         generator.GenerateStep();
     }

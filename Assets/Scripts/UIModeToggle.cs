@@ -8,6 +8,7 @@ public class UIModeToggle : MonoBehaviour {
     [SerializeField] GameObject detectionNonCanvas;
     [SerializeField] GameObject manualCanvasUI;
     [SerializeField] GameObject manualNonCanvas;
+    [SerializeField] Canvas canvas; 
 
     static UIModeToggle instance;
 
@@ -21,6 +22,7 @@ public class UIModeToggle : MonoBehaviour {
         instance.manualNonCanvas.SetActive(action);
         instance.detectionCanvasUI.SetActive(!action);
         instance.detectionNonCanvas.SetActive(!action);
+        instance.canvas.renderMode = action ? RenderMode.ScreenSpaceCamera : RenderMode.ScreenSpaceOverlay;
         VuforiaBehaviour.Instance.enabled = !action;
     }
 }

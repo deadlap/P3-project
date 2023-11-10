@@ -13,12 +13,10 @@ public class InstructionRotation : MonoBehaviour, IDragHandler, IEndDragHandler,
     [SerializeField] GameObject arrow3d;
     [SerializeField] float rotationSpeed;
     [SerializeField] new Camera camera;
-    //Vector3 localUp;
-    //Vector3 localRight;
     bool resetToDefault;
     static InstructionRotation instance;
-    float resetSpeed = 200f;
-    float resetThreshold = 80f;
+    [SerializeField] float resetSpeed;
+    [SerializeField] float resetThreshold;
 
     void Awake()
     {
@@ -26,47 +24,31 @@ public class InstructionRotation : MonoBehaviour, IDragHandler, IEndDragHandler,
     }
 
     void Start(){
-        //targetToOrbit = transform.gameObject;
-        //resetToDefault = false;
+        resetToDefault = false;
     }
 
-    public void ResetCamera(){
+    public void ResetRotation(){
         instance.resetToDefault = true;
     }
-    public static void ForceResetCamera(){
+
+    public static void ForceResetRotation(){
         instance.resetToDefault = false;
-        instance.camera.transform.position = Vector3.zero;
-        instance.camera.transform.rotation = Quaternion.Euler(0,0,0);
+        instance.targetToOrbit.transform.rotation = Quaternion.Euler(0,0,0);
     }
 
     void Update() {
         if (resetToDefault){
-            camera.transform.RotateAround(
-                targetToOrbit.transform.position,
-                camera.transform.position.x > 0 ? Vector3.up : Vector3.down,
-                Time.deltaTime*resetSpeed
+            Vector3 cur_rotation = targetToOrbit.transform.eulerAngles;
+            targetToOrbit.transform.Rotate(
+                0,
+                cur_rotation.y < 180 ? -Time.deltaTime*resetSpeed : Time.deltaTime*resetSpeed,
+                0
             );
-            if (Vector3.Distance(Vector3.zero, camera.transform.position) < resetThreshold) {
-                camera.transform.position = Vector3.zero;
-                camera.transform.rotation = Quaternion.Euler(0,0,0);
-                resetToDefault = false;
+            Debug.Log(Mathf.Abs(targetToOrbit.transform.rotation.y));
+            if (Mathf.Abs(targetToOrbit.transform.eulerAngles.y) < resetThreshold) {
+                ForceResetRotation();
             }
         }
-        //RotateCamera();
-    }
-
-    void RotateCamera() {
-        //if (!Input.GetMouseButton(0)) return;
-        print("dragging");
-        resetToDefault = false;
-        camera.transform.RotateAround(
-            targetToOrbit.transform.position, 
-            Vector3.up, 
-            Input.GetAxis("Mouse X") * rotationSpeed);
-            // Camera.main.transform.RotateAround(
-            //     targetToOrbit.transform.position,
-            //     Vector3.right,
-            //     -Input.GetAxis("Mouse Y") * speed);
     }
 
     public void OnDrag(PointerEventData eventData)
