@@ -6,6 +6,7 @@ using System;
 using UnityEngine.EventSystems;
 
 public class InstructionAnimationManipulator : MonoBehaviour {
+    public static InstructionAnimationManipulator instance;
     [SerializeField] Slider animProgressSlider;
     [Header("Images")]
     [SerializeField] Image handleImage; 
@@ -20,15 +21,19 @@ public class InstructionAnimationManipulator : MonoBehaviour {
     Animator currentAnim;
     bool isPlaying;
     float animTime;
-    
+
+    void Awake() {
+        instance = this;
+    }
+
     void Start() {
         isPlaying = true;
         speedMenuOpened = false;
         playButton.SetActive(false);
         pauseButton.SetActive(true);
-        handleImage.color = sliderColors[0];
-        sliderFillImage.color = sliderColors[0];
-        sliderBackgroundImage.color = sliderColors[2];
+        //handleImage.color = sliderColors[0];
+        //sliderFillImage.color = sliderColors[0];
+        //sliderBackgroundImage.color = sliderColors[2];
     }
 
     void Update() {
@@ -36,12 +41,14 @@ public class InstructionAnimationManipulator : MonoBehaviour {
         if(!isPlaying) return;
         currentAnim = GetComponentInChildren<Animator>();
         if(!currentAnim) return;
+        if(SliderDrag.instance.isDragging) return;
         animTime = currentAnim.GetCurrentAnimatorStateInfo(0).normalizedTime % 1;
         animProgressSlider.value = animTime;
     }
     
     public void ProgressSlider() {
-        currentAnim.SetFloat("AnimationTime", animProgressSlider.value);
+        currentAnim.Play(currentAnim.GetCurrentAnimatorStateInfo(0).shortNameHash, 0, animProgressSlider.value);
+        //currentAnim.SetFloat("AnimationTime", animProgressSlider.value);
     }
     
     public void SwitchPlayState() {
@@ -51,23 +58,20 @@ public class InstructionAnimationManipulator : MonoBehaviour {
             case true:
                 playButton.SetActive(false);
                 pauseButton.SetActive(true);
-                handleImage.color = sliderColors[0];
-                sliderFillImage.color = sliderColors[0];
-                sliderBackgroundImage.color = sliderColors[2];
+                //handleImage.color = sliderColors[0];
+                //sliderFillImage.color = sliderColors[0];
+                //sliderBackgroundImage.color = sliderColors[2];
                 break;
             case false:
                 playButton.SetActive(true);
                 pauseButton.SetActive(false);
-                handleImage.color = sliderColors[1];
-                sliderFillImage.color = sliderColors[1];
-                sliderBackgroundImage.color = sliderColors[3];
+                //handleImage.color = sliderColors[1];
+                //sliderFillImage.color = sliderColors[1];
+                //sliderBackgroundImage.color = sliderColors[3];
                 break;
         }
         if (!currentAnim) return;
-        // currentAnim.SetFloat("SpeedMultiplier", Convert.ToSingle(isPlaying));
         currentAnim.speed = Convert.ToSingle(isPlaying);
-        //Lav en ny ting der hedder isplaying eller noget i stedet for SpeedMultiplier??????
-        //Da vi skal bruge SpeedMultiplier i ChangeAnimationSpeed
     }
     
     //Assign denne funktion til en knap, giv knappen en float som bliver animationens SpeedMultiplier 

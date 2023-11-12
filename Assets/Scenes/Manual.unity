@@ -291,25 +291,6 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 111152062}
   mModelScale: {x: 0.006976001, y: 0.070068, z: 0.026057001}
   mModelTargetPreview: {fileID: 0}
---- !u!114 &111152069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 111152059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 111152062}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: base_jaw_plate
-  mDatasetName: Vuforia/Vice_test_1.xml
-  mCastedBehaviour: {fileID: 111152062}
-  mModelScale: {x: 0.006976001, y: 0.070068, z: 0.026057001}
-  mModelTargetPreview: {fileID: 0}
 --- !u!1 &144243790
 GameObject:
   m_ObjectHideFlags: 0
@@ -1313,25 +1294,6 @@ MonoBehaviour:
   partSprite: {fileID: 21300000, guid: 3ab34c6b723ebbf419ac81c56e8ff20a, type: 3}
   partName: Sliding Jaw Plate
 --- !u!114 &424642229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 424642220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 424642223}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: sliding_jaw_plate
-  mDatasetName: Vuforia/Vice_test_1.xml
-  mCastedBehaviour: {fileID: 424642223}
-  mModelScale: {x: 0.015080005, y: 0.070068, z: 0.026057001}
-  mModelTargetPreview: {fileID: 0}
---- !u!114 &424642230
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3084,25 +3046,6 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1022703157}
   mModelScale: {x: 0.067066, y: 0.035579, z: 0.035579}
   mModelTargetPreview: {fileID: 0}
---- !u!114 &1022703164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1022703155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1022703157}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: center_gear
-  mDatasetName: Vuforia/Vice_test_1.xml
-  mCastedBehaviour: {fileID: 1022703157}
-  mModelScale: {x: 0.067066, y: 0.035579, z: 0.035579}
-  mModelTargetPreview: {fileID: 0}
 --- !u!1 &1025399148 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1596560343814329341, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
@@ -3139,25 +3082,6 @@ MonoBehaviour:
   partSprite: {fileID: 21300000, guid: 3ab34c6b723ebbf419ac81c56e8ff20a, type: 3}
   partName: Sliding Jaw
 --- !u!114 &1025399157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1025399148}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1025399151}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: sliding_jaw
-  mDatasetName: Vuforia/Vice_test_1.xml
-  mCastedBehaviour: {fileID: 1025399151}
-  mModelScale: {x: 0.10195, y: 0.064981, z: 0.038312}
-  mModelTargetPreview: {fileID: 0}
---- !u!114 &1025399158
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3599,25 +3523,6 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1085813925}
   mModelScale: {x: 0.012025, y: 0.029829998, z: 0.029829998}
   mModelTargetPreview: {fileID: 0}
---- !u!114 &1085813932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1085813922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1085813925}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: main_gear
-  mDatasetName: Vuforia/Vice_test_1.xml
-  mCastedBehaviour: {fileID: 1085813925}
-  mModelScale: {x: 0.012025, y: 0.029829998, z: 0.029829998}
-  mModelTargetPreview: {fileID: 0}
 --- !u!1 &1095144365
 GameObject:
   m_ObjectHideFlags: 0
@@ -3990,25 +3895,6 @@ MonoBehaviour:
   partSprite: {fileID: 21300000, guid: 3ab34c6b723ebbf419ac81c56e8ff20a, type: 3}
   partName: Base B
 --- !u!114 &1253346097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1253346089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1253346091}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: base_jaw_B
-  mDatasetName: Vuforia/Vice_test_1.xml
-  mCastedBehaviour: {fileID: 1253346091}
-  mModelScale: {x: 0.158176, y: 0.035123996, z: 0.044156004}
-  mModelTargetPreview: {fileID: 0}
---- !u!114 &1253346098
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4594,25 +4480,6 @@ MonoBehaviour:
   partSprite: {fileID: 21300000, guid: 3ab34c6b723ebbf419ac81c56e8ff20a, type: 3}
   partName: Base A
 --- !u!114 &1471763523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1471763514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1471763517}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: base_jaw_A
-  mDatasetName: Vuforia/Vice_test_1.xml
-  mCastedBehaviour: {fileID: 1471763517}
-  mModelScale: {x: 0.158176, y: 0.045006, z: 0.044156004}
-  mModelTargetPreview: {fileID: 0}
---- !u!114 &1471763524
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6176,6 +6043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1916516844}
   - component: {fileID: 1916516845}
+  - component: {fileID: 1916516846}
   m_Layer: 0
   m_Name: AnimationProgressSlider
   m_TagString: Untagged
@@ -6268,6 +6136,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1916516846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916516843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0b82b6d6eb6d40419ba9f91a320b4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDragging: 0
 --- !u!1 &1958325082
 GameObject:
   m_ObjectHideFlags: 0
@@ -6762,25 +6643,6 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 2075064805}
   mModelScale: {x: 0.005780004, y: 0.070068, z: 0.0028719995}
   mModelTargetPreview: {fileID: 0}
---- !u!114 &2075064812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2075064802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2075064805}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: base_clip
-  mDatasetName: Vuforia/Vice_test_1.xml
-  mCastedBehaviour: {fileID: 2075064805}
-  mModelScale: {x: 0.005780004, y: 0.070068, z: 0.0028719995}
-  mModelTargetPreview: {fileID: 0}
 --- !u!1001 &132420678367055607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6872,9 +6734,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919027481065202753, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1085813931}
-    - targetCorrespondingSourceObject: {fileID: 919027481065202753, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1085813932}
   m_SourcePrefab: {fileID: 100100000, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
 --- !u!1001 &1186856792430655736
 PrefabInstance:
@@ -6967,9 +6826,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1308456700309020, guid: 25386fce23b24f24ca9880c693440f32, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2075064811}
-    - targetCorrespondingSourceObject: {fileID: 1308456700309020, guid: 25386fce23b24f24ca9880c693440f32, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2075064812}
   m_SourcePrefab: {fileID: 100100000, guid: 25386fce23b24f24ca9880c693440f32, type: 3}
 --- !u!1001 &2508708910382461499
 PrefabInstance:
@@ -7062,9 +6918,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7957855586038054317, guid: 813dcd1ab6f13d545b5d9201c6628758, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1253346097}
-    - targetCorrespondingSourceObject: {fileID: 7957855586038054317, guid: 813dcd1ab6f13d545b5d9201c6628758, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1253346098}
   m_SourcePrefab: {fileID: 100100000, guid: 813dcd1ab6f13d545b5d9201c6628758, type: 3}
 --- !u!1001 &3554328190697345165
 PrefabInstance:
@@ -7157,9 +7010,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4328096389511575196, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1022703163}
-    - targetCorrespondingSourceObject: {fileID: 4328096389511575196, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1022703164}
   m_SourcePrefab: {fileID: 100100000, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
 --- !u!1001 &6094651470475685504
 PrefabInstance:
@@ -7252,9 +7102,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5356064855512395449, guid: f3c96e3742373b24c821863803391750, type: 3}
       insertIndex: -1
       addedObject: {fileID: 111152068}
-    - targetCorrespondingSourceObject: {fileID: 5356064855512395449, guid: f3c96e3742373b24c821863803391750, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 111152069}
   m_SourcePrefab: {fileID: 100100000, guid: f3c96e3742373b24c821863803391750, type: 3}
 --- !u!1001 &6226759846853661314
 PrefabInstance:
@@ -7347,9 +7194,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 899376607071392881, guid: e6be8bb4328a8574888aaee5b10fae29, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1471763523}
-    - targetCorrespondingSourceObject: {fileID: 899376607071392881, guid: e6be8bb4328a8574888aaee5b10fae29, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1471763524}
   m_SourcePrefab: {fileID: 100100000, guid: e6be8bb4328a8574888aaee5b10fae29, type: 3}
 --- !u!1001 &7454698430136256852
 PrefabInstance:
@@ -7442,9 +7286,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4968077165818732922, guid: ae955d8f0b293594d94d201ecc1efd8c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 424642229}
-    - targetCorrespondingSourceObject: {fileID: 4968077165818732922, guid: ae955d8f0b293594d94d201ecc1efd8c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 424642230}
   m_SourcePrefab: {fileID: 100100000, guid: ae955d8f0b293594d94d201ecc1efd8c, type: 3}
 --- !u!1001 &9078668153499317739
 PrefabInstance:
@@ -7537,9 +7378,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1596560343814329341, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1025399157}
-    - targetCorrespondingSourceObject: {fileID: 1596560343814329341, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1025399158}
   m_SourcePrefab: {fileID: 100100000, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
