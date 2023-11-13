@@ -33,6 +33,7 @@ public class InstructionAnimationManipulator : MonoBehaviour {
     }
     
     public void ProgressSlider() {
+        if (!SliderDrag.Instance.isDragging) return;
         currentAnim.Play(currentAnim.GetCurrentAnimatorClipInfo(0)[0].clip.name, -1, animProgressSlider.value);
     }
     
