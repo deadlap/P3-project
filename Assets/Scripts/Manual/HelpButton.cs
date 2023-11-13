@@ -1,5 +1,4 @@
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -34,14 +33,10 @@ public class HelpButton : MonoBehaviour
             manualObject.SetActive(!helpPressed);
         if(textAndButtons)
             textAndButtons.SetActive(!helpPressed);
-        switch (helpPressed)
+        helpButton.sprite = helpPressed switch
         {
-            case true:
-                helpButton.sprite = exitIcon;
-                break;
-            case false:
-                helpButton.sprite = helpIcon;
-                break;
-        }
+            true => exitIcon, 
+            false => helpIcon
+        };
     }
 }

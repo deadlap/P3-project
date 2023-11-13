@@ -1,20 +1,21 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class SliderDrag : MonoBehaviour, IBeginDragHandler, IEndDragHandler
+public class SliderDrag : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
-    public static SliderDrag instance;
+    public static SliderDrag Instance;
     public bool isDragging;
-    // Start is called before the first frame update
     void Awake() {
-        instance = this;
+        Instance = this;
     }
 
-    public void OnBeginDrag(PointerEventData eventData) {
+    public void OnPointerDown(PointerEventData eventData)
+    {
         isDragging = true;
     }
 
-    public void OnEndDrag(PointerEventData eventData) {
+    public void OnPointerUp(PointerEventData eventData)
+    {
         isDragging = false;
     }
 }
