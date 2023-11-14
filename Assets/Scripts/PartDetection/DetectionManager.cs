@@ -1,22 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class DetectionManager : MonoBehaviour {
     [SerializeField] UnityEngine.UI.Image partDetectionSignifier;
     string currentPartName;
-
+    [SerializeField] TMP_Text partText;
     void Awake() {
         currentPartName = "";
     }
     
     public void SearchForPart(GameObject _inputPart){
         UIModeToggle.toggleManual(false);
-        GameObject partToScan = _inputPart.GetComponentInChildren<PartButton>().partNeeded; 
+        GameObject partToScan = _inputPart.GetComponentInChildren<PartButton>().partNeeded;
         currentPartName = partToScan.name;
         Debug.Log(currentPartName);
+        partText.text = $"Scan \"{partToScan.GetComponent<PartInfo>().partName}\"";
     }
 
     public void PartDetected(GameObject foundPart){

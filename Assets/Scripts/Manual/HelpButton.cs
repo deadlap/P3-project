@@ -13,11 +13,11 @@ public class HelpButton : MonoBehaviour
     [SerializeField] Image helpButton;
     [SerializeField] Sprite helpIcon;
     [SerializeField] Sprite exitIcon;
+    Color[] colors = new []{new Color(255,255,255,255), new Color(0,0,0,255)};
 
-    [Header("GameObjects")] 
+    [Header("GameObjects")]
     [SerializeField] GameObject helpPanel;
     [SerializeField] GameObject manualObject;
-    [SerializeField] GameObject textAndButtons;
     bool helpPressed;
     void Start()
     {
@@ -31,12 +31,16 @@ public class HelpButton : MonoBehaviour
         helpPanel.SetActive(helpPressed);
         if(manualObject)
             manualObject.SetActive(!helpPressed);
-        if(textAndButtons)
-            textAndButtons.SetActive(!helpPressed);
-        helpButton.sprite = helpPressed switch
+        switch (helpPressed)
         {
-            true => exitIcon, 
-            false => helpIcon
-        };
+            case false:
+                helpButton.color = colors[0];
+                helpButton.sprite = helpIcon;
+                break;
+            case true:
+                helpButton.color = colors[1];
+                helpButton.sprite = exitIcon;
+                break;
+        }
     }
 }

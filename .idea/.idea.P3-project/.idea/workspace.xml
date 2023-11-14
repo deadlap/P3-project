@@ -9,8 +9,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manual/InstructionAnimationManipulator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manual/ProgressDots.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manual/SliderDrag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Project-P202/Assets/Scripts/Scale/ItemDrag.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Project-P202/Assets/Scripts/ScrollWheels/FindElement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Project-P202/Assets/Scripts/ScrollWheels/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -88,6 +91,8 @@
       <workItem from="1699552116814" duration="4144000" />
       <workItem from="1699794114958" duration="10901000" />
       <workItem from="1699868112591" duration="2395000" />
+      <workItem from="1699964264293" duration="6768000" />
+      <workItem from="1699979923116" duration="1260000" />
     </task>
     <servers />
   </component>
