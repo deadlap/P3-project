@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class StepSwitcher : MonoBehaviour {
     [SerializeField] StepGenerator generator;
+    [SerializeField] GameObject finishManualButton;
     public void ChangeStep(int change){
-        StepCounter.ChangeStep(change);
+        StepCounter.UpdateStepNumber(change);
         InstructionRotation.ForceResetRotation();
         generator.DestroyChildren();
         generator.GenerateStep();
+        StepNumberVisualizer.UpdateText();
+        if (StepCounter.CurrentStep < StepCounter.MaxSteps ) {
+            finishManualButton.SetActive(false);
+        } else {
+            finishManualButton.SetActive(true);
+        }
     }
 }

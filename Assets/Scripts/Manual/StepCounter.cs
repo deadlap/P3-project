@@ -12,7 +12,7 @@ public class StepCounter : MonoBehaviour {
         MaxSteps = ManualFetcher.GetManual().steps.Count;
     }
 
-    public static void ChangeStep(int amount){
+    public static void UpdateStepNumber(int amount){
         CurrentStep += amount;
         if (CurrentStep > ReachedStep) {
             ReachedStep = CurrentStep;
