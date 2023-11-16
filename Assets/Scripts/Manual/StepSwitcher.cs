@@ -10,7 +10,6 @@ public class StepSwitcher : MonoBehaviour {
         InstructionRotation.ForceResetRotation();
         generator.DestroyChildren();
         generator.GenerateStep();
-        StepNumberVisualizer.UpdateText();
         if (StepCounter.CurrentStep < StepCounter.MaxSteps ) {
             finishManualButton.SetActive(false);
         } else {

@@ -1,5 +1,7 @@
 using UnityEngine;
 using TMPro;
+using Unity.VisualScripting;
+
 public class StepNumberVisualizer : MonoBehaviour {
     
     TextMeshProUGUI  stepText;
@@ -14,12 +16,10 @@ public class StepNumberVisualizer : MonoBehaviour {
         stepText = GetComponent<TextMeshProUGUI>();
     }
 
-    // Update is called once per frame
-    public static void UpdateText() {
-        if (StepCounter.CurrentStep < StepCounter.MaxSteps ) {
-            instance.stepText.text = $"Step {StepCounter.CurrentStep}/{StepCounter.MaxSteps}";
-        } else {
+    void Update() {
+        if (StepCounter.CurrentStep < StepCounter.MaxSteps)
+            instance.stepText.text = $"Trin {StepCounter.CurrentStep}/{StepCounter.MaxSteps}";
+        else
             instance.stepText.text = instance.finishedManualPrompt;
-        }
     }
 }
