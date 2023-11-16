@@ -270,9 +270,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db89c4680c4d6cb47be1796481095ad6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partSprite: {fileID: 21300000, guid: 6ff10dcfcc24b6845869aaeb65a9bdd0, type: 3}
+  partSprite: {fileID: 8788707939931709032, guid: 6ebd99a54752f5d43a0649275ce4253d, type: 3}
   partName: Base Jaw Plate
---- !u!114 &111152068
+--- !u!114 &111152071
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -291,7 +291,7 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 111152062}
   mModelScale: {x: 0.006976001, y: 0.070068, z: 0.026057001}
   mModelTargetPreview: {fileID: 0}
---- !u!114 &111152069
+--- !u!114 &111152073
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1049,11 +1049,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4065d8f176504c488c021425cc20835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  helpTextPrompt: "Funktionalitet\r\nHer kan du scanne delene og finde den du skal
-    bruge.\nEfter at have scannet det korrekte objekt, vil du kort tid efter blive
-    sendt tilbage til manualen.\n\nNyttige Tips\r\n- Plac\xE9r objektet der skal
-    scannes i midten for nemmere scanning\r\n\n- Plac\xE9r objektet p\xE5 en baggrund
-    der har god kontrast for nemmere scanning."
+  helpTextPrompt: "Funktionalitet:\n\r\nHer kan du scanne delene og finde den du
+    skal bruge.\n\nEfter at have scannet den korrekte del, bliver du automatisk sendt
+    tilbage til manualen.\n\n\nHvis du har problemer med at scanne en del kan du
+    pr\xF8ve at: \n\nCentrere delen der skal scannes.\n\nJustere p\xE5 vinklen af
+    den del du scanner.\r\n\nPlacere delen p\xE5 en neutral baggrund der har kontrast
+    til delen.\n\nReng\xF8re kameraet lense."
   helpText: {fileID: 1979490496}
   helpButton: {fileID: 391500828}
   helpIcon: {fileID: 197420497692671416, guid: ef8e77671a699b449b6c03a9fa88e63c, type: 3}
@@ -1187,9 +1188,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db89c4680c4d6cb47be1796481095ad6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partSprite: {fileID: 21300000, guid: a51866cd348f45d41a7698851c34f2aa, type: 3}
+  partSprite: {fileID: -6647865950013352389, guid: 6ebd99a54752f5d43a0649275ce4253d, type: 3}
   partName: Sliding Jaw Plate
---- !u!114 &424642229
+--- !u!114 &424642232
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1208,7 +1209,7 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 424642223}
   mModelScale: {x: 0.015080005, y: 0.070068, z: 0.026057001}
   mModelTargetPreview: {fileID: 0}
---- !u!114 &424642230
+--- !u!114 &424642234
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3043,7 +3044,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   partSprite: {fileID: 21300000, guid: 89314c94b1ddd4f4daeee5b0c6c1d87c, type: 3}
   partName: Center Gear/Handle
---- !u!114 &1022703163
+--- !u!114 &1022703166
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3062,7 +3063,7 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1022703157}
   mModelScale: {x: 0.067066, y: 0.035579, z: 0.035579}
   mModelTargetPreview: {fileID: 0}
---- !u!114 &1022703164
+--- !u!114 &1022703168
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3116,7 +3117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   partSprite: {fileID: 21300000, guid: 1fcd0c42fa814054893b11d4eaf910b8, type: 3}
   partName: Sliding Jaw
---- !u!114 &1025399157
+--- !u!114 &1025399160
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3135,7 +3136,7 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1025399151}
   mModelScale: {x: 0.10195, y: 0.064981, z: 0.038312}
   mModelTargetPreview: {fileID: 0}
---- !u!114 &1025399158
+--- !u!114 &1025399162
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3559,9 +3560,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db89c4680c4d6cb47be1796481095ad6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partSprite: {fileID: 21300000, guid: 3427ad5e46706284a9899bd429e8f996, type: 3}
+  partSprite: {fileID: -70729640457528935, guid: 7cbfb180e9bac034181dbba7c3274f99, type: 3}
   partName: Gear
---- !u!114 &1085813931
+--- !u!114 &1085813934
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3580,7 +3581,7 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1085813925}
   mModelScale: {x: 0.012025, y: 0.029829998, z: 0.029829998}
   mModelTargetPreview: {fileID: 0}
---- !u!114 &1085813932
+--- !u!114 &1085813936
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3893,9 +3894,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db89c4680c4d6cb47be1796481095ad6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partSprite: {fileID: 21300000, guid: 4c547adb229081a4594655758118d3a0, type: 3}
+  partSprite: {fileID: 7667416569732135194, guid: 6ebd99a54752f5d43a0649275ce4253d, type: 3}
   partName: Base B
---- !u!114 &1253346097
+--- !u!114 &1253346100
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3914,7 +3915,7 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1253346091}
   mModelScale: {x: 0.158176, y: 0.035123996, z: 0.044156004}
   mModelTargetPreview: {fileID: 0}
---- !u!114 &1253346098
+--- !u!114 &1253346102
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4630,9 +4631,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db89c4680c4d6cb47be1796481095ad6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partSprite: {fileID: 21300000, guid: 84e8a7aeea8db26428271ac6c778753a, type: 3}
+  partSprite: {fileID: -5942997234546647401, guid: 6ebd99a54752f5d43a0649275ce4253d, type: 3}
   partName: Base A
---- !u!114 &1471763523
+--- !u!114 &1471763526
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4651,7 +4652,7 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1471763517}
   mModelScale: {x: 0.158176, y: 0.045006, z: 0.044156004}
   mModelTargetPreview: {fileID: 0}
---- !u!114 &1471763524
+--- !u!114 &1471763528
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5081,14 +5082,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4065d8f176504c488c021425cc20835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  helpTextPrompt: "Funktionalitet\r\nHvis du er usikker p\xE5 om du har fundet den
-    rigtige del kan du klikke p\xE5 den del du tror du har fat p\xE5 og s\xE5 bliver
-    du f\xF8rt til en sk\xE6rm hvor du med dit kamera kan scanne delen og se om det
-    er den rigtige.\r\n\nVed at stryge din finger over 3D modellen kan du rotere
-    modellen\r\r\n\nDu kan til enhver tid stoppe eller starte videoen ved at trykke
-    p\xE5 play/pause knappen.\nDu kan ogs\xE5 spole i videoen ved at tr\xE6kke i
-    baren i bunden af sk\xE6rmen.\n\nFor at skifte trin i manualen skal du g\xF8re
-    brug af pilene i bunden af sk\xE6rmen.\r"
+  helpTextPrompt: "Funktionalitet:\n\r\nHvis du er usikker p\xE5 om du har fat p\xE5
+    den rigtige del, kan du scanne den med dit kamera ved at trykke p\xE5 billedet
+    af den over 3D-modellen.\r\n\nVed at stryge din finger over 3D-modellen kan du
+    rotere modellen\r\r\n\nDu kan til enhver tid stoppe eller starte videoen ved
+    at trykke p\xE5 play/pause knappen.\n\nDu kan ogs\xE5 spole i videoen ved at
+    tr\xE6kke i baren i bunden af sk\xE6rmen.\n\nVed at trykke p\xE5 knappen til
+    h\xF8jre for videobaren kan du justere hastigeden p\xE5 videoen.\n\nFor at skifte
+    trin i manualen skal du g\xF8re brug af pilene i bunden af sk\xE6rmen.\r"
   helpText: {fileID: 1047148971}
   helpButton: {fileID: 1513704823}
   helpIcon: {fileID: 197420497692671416, guid: ef8e77671a699b449b6c03a9fa88e63c, type: 3}
@@ -7219,7 +7220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   partSprite: {fileID: 21300000, guid: 3ab34c6b723ebbf419ac81c56e8ff20a, type: 3}
   partName: 
---- !u!114 &2075064811
+--- !u!114 &2075064814
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7238,7 +7239,7 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 2075064805}
   mModelScale: {x: 0.005780004, y: 0.070068, z: 0.0028719995}
   mModelTargetPreview: {fileID: 0}
---- !u!114 &2075064812
+--- !u!114 &2075064816
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7355,10 +7356,10 @@ PrefabInstance:
       addedObject: {fileID: 1085813929}
     - targetCorrespondingSourceObject: {fileID: 919027481065202753, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1085813931}
+      addedObject: {fileID: 1085813934}
     - targetCorrespondingSourceObject: {fileID: 919027481065202753, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1085813932}
+      addedObject: {fileID: 1085813936}
   m_SourcePrefab: {fileID: 100100000, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
 --- !u!1001 &1186856792430655736
 PrefabInstance:
@@ -7450,10 +7451,10 @@ PrefabInstance:
       addedObject: {fileID: 2075064809}
     - targetCorrespondingSourceObject: {fileID: 1308456700309020, guid: 25386fce23b24f24ca9880c693440f32, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2075064811}
+      addedObject: {fileID: 2075064814}
     - targetCorrespondingSourceObject: {fileID: 1308456700309020, guid: 25386fce23b24f24ca9880c693440f32, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2075064812}
+      addedObject: {fileID: 2075064816}
   m_SourcePrefab: {fileID: 100100000, guid: 25386fce23b24f24ca9880c693440f32, type: 3}
 --- !u!1001 &2508708910382461499
 PrefabInstance:
@@ -7545,10 +7546,10 @@ PrefabInstance:
       addedObject: {fileID: 1253346095}
     - targetCorrespondingSourceObject: {fileID: 7957855586038054317, guid: 813dcd1ab6f13d545b5d9201c6628758, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1253346097}
+      addedObject: {fileID: 1253346100}
     - targetCorrespondingSourceObject: {fileID: 7957855586038054317, guid: 813dcd1ab6f13d545b5d9201c6628758, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1253346098}
+      addedObject: {fileID: 1253346102}
   m_SourcePrefab: {fileID: 100100000, guid: 813dcd1ab6f13d545b5d9201c6628758, type: 3}
 --- !u!1001 &3554328190697345165
 PrefabInstance:
@@ -7648,10 +7649,10 @@ PrefabInstance:
       addedObject: {fileID: 1022703161}
     - targetCorrespondingSourceObject: {fileID: 4328096389511575196, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1022703163}
+      addedObject: {fileID: 1022703166}
     - targetCorrespondingSourceObject: {fileID: 4328096389511575196, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1022703164}
+      addedObject: {fileID: 1022703168}
   m_SourcePrefab: {fileID: 100100000, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
 --- !u!1001 &6094651470475685504
 PrefabInstance:
@@ -7743,10 +7744,10 @@ PrefabInstance:
       addedObject: {fileID: 111152066}
     - targetCorrespondingSourceObject: {fileID: 5356064855512395449, guid: f3c96e3742373b24c821863803391750, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 111152068}
+      addedObject: {fileID: 111152071}
     - targetCorrespondingSourceObject: {fileID: 5356064855512395449, guid: f3c96e3742373b24c821863803391750, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 111152069}
+      addedObject: {fileID: 111152073}
   m_SourcePrefab: {fileID: 100100000, guid: f3c96e3742373b24c821863803391750, type: 3}
 --- !u!1001 &6226759846853661314
 PrefabInstance:
@@ -7838,10 +7839,10 @@ PrefabInstance:
       addedObject: {fileID: 1471763521}
     - targetCorrespondingSourceObject: {fileID: 899376607071392881, guid: e6be8bb4328a8574888aaee5b10fae29, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1471763523}
+      addedObject: {fileID: 1471763526}
     - targetCorrespondingSourceObject: {fileID: 899376607071392881, guid: e6be8bb4328a8574888aaee5b10fae29, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1471763524}
+      addedObject: {fileID: 1471763528}
   m_SourcePrefab: {fileID: 100100000, guid: e6be8bb4328a8574888aaee5b10fae29, type: 3}
 --- !u!1001 &7454698430136256852
 PrefabInstance:
@@ -7933,10 +7934,10 @@ PrefabInstance:
       addedObject: {fileID: 424642227}
     - targetCorrespondingSourceObject: {fileID: 4968077165818732922, guid: ae955d8f0b293594d94d201ecc1efd8c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 424642229}
+      addedObject: {fileID: 424642232}
     - targetCorrespondingSourceObject: {fileID: 4968077165818732922, guid: ae955d8f0b293594d94d201ecc1efd8c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 424642230}
+      addedObject: {fileID: 424642234}
   m_SourcePrefab: {fileID: 100100000, guid: ae955d8f0b293594d94d201ecc1efd8c, type: 3}
 --- !u!1001 &9078668153499317739
 PrefabInstance:
@@ -8028,10 +8029,10 @@ PrefabInstance:
       addedObject: {fileID: 1025399155}
     - targetCorrespondingSourceObject: {fileID: 1596560343814329341, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1025399157}
+      addedObject: {fileID: 1025399160}
     - targetCorrespondingSourceObject: {fileID: 1596560343814329341, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1025399158}
+      addedObject: {fileID: 1025399162}
   m_SourcePrefab: {fileID: 100100000, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
