@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -793,7 +793,7 @@ MonoBehaviour:
   noObjectColor: {r: 1, g: 1, b: 1, a: 0.3137255}
   wrongObjectColor: {r: 0.6320754, g: 0.12224099, b: 0.12224099, a: 0.3137255}
   correctObjectColor: {r: 0.10426309, g: 0.6698113, b: 0.1456666, a: 0.3137255}
-  countDownTime: 15
+  countDownTime: 5
 --- !u!1 &324772491
 GameObject:
   m_ObjectHideFlags: 0
@@ -6410,7 +6410,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 0}
+  m_SizeDelta: {x: 35, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1911781347
 MonoBehaviour:
@@ -7274,6 +7274,14 @@ PrefabInstance:
       propertyPath: mPreview
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7201790590493901553, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
+      propertyPath: mMotionHint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7201790590493901553, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
+      propertyPath: mTrackingOptimization
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 487687975506539458, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
     m_RemovedGameObjects: []
@@ -7533,6 +7541,14 @@ PrefabInstance:
     - target: {fileID: 4427125060787341293, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
       propertyPath: mPreview
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4427125060787341293, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
+      propertyPath: mMotionHint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4427125060787341293, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
+      propertyPath: mTrackingOptimization
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4867316628781044235, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
       propertyPath: m_Materials.Array.data[0]

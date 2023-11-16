@@ -54,7 +54,6 @@ public class DetectionManager : MonoBehaviour {
     public void PartDetected(GameObject foundPart){
         Debug.Log(foundPart.name);
         if (foundPart.name == currentPartName) {
-            // Invoke("ForceEndSearch",15f);
             partFound = true;
             currentCountDown = countDownTime;
             scanText.text = correctObjectText;
