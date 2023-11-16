@@ -1031,11 +1031,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   helpTextPrompt: "Funktionalitet\r\nHer kan du scanne delene og finde den du skal
-    bruge\n\nNyttige Tips\r\nPlac\xE9r objektet der skal scannes i midten for nemmere
-    scanning\r\nPlac\xE9r objektet p\xE5 en baggrund der har god kontrast for nemmere
-    scanning\n\nFremgangsm\xE5de\nPlac\xE9r delen i midten af dit kamera p\xE5 en
-    kontrastene baggrund vent lidt tid for at finde ud af om det er den del der skal
-    bruges her. Hvis det er bliver sendes du tilbage til 3D model scenen."
+    bruge.\nEfter at have scannet det korrekte objekt, vil du kort tid efter blive
+    sendt tilbage til manualen.\n\nNyttige Tips\r\n- Plac\xE9r objektet der skal
+    scannes i midten for nemmere scanning\r\n\n- Plac\xE9r objektet p\xE5 en baggrund
+    der har god kontrast for nemmere scanning."
   helpText: {fileID: 1979490496}
   helpButton: {fileID: 391500828}
   helpIcon: {fileID: 197420497692671416, guid: ef8e77671a699b449b6c03a9fa88e63c, type: 3}
