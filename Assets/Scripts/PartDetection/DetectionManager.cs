@@ -3,16 +3,18 @@ using TMPro;
 using UnityEngine;
 
 public class DetectionManager : MonoBehaviour {
+    [Header("GameObjects")]
     [SerializeField] UnityEngine.UI.Image partImage;
     [SerializeField] TMP_Text partText;
 
     [SerializeField] TMP_Text scanText;
-    [SerializeField] UnityEngine.UI.Image scanTextBackground;
-
-    [SerializeField] string noObjectText;
-    [SerializeField] string wrongObjectText;
-    [SerializeField] string correctObjectText;
-
+    [SerializeField] UnityEngine.UI.Image scanningStatusImage;
+    [SerializeField] UnityEngine.UI.Button scanningStatusButton;
+    [Header("Strings")]
+    [SerializeField] [TextArea] string noObjectText;
+    [SerializeField] [TextArea] string wrongObjectText;
+    [SerializeField] [TextArea] string correctObjectText;
+    [Header("Colors")]
     [SerializeField] Color noObjectColor;
     [SerializeField] Color wrongObjectColor;
     [SerializeField] Color correctObjectColor;
@@ -38,7 +40,7 @@ public class DetectionManager : MonoBehaviour {
     
     public void SearchForPart(GameObject _inputPart){
         UIModeToggle.toggleManual(false);
-        
+        scanningStatusButton.enabled = false;
         GameObject partToScan = _inputPart.GetComponentInChildren<PartButton>().partNeeded;
         currentPartName = partToScan.name;
         
@@ -48,31 +50,33 @@ public class DetectionManager : MonoBehaviour {
         partImage.sprite = partToScan.GetComponent<PartInfo>().partSprite;
 
         scanText.text = noObjectText;
-        scanTextBackground.color = noObjectColor;
+        scanningStatusImage.color = noObjectColor;
     }
 
     public void PartDetected(GameObject foundPart){
         Debug.Log(foundPart.name);
         if (foundPart.name == currentPartName) {
+            Handheld.Vibrate();
+            scanningStatusButton.enabled = true;
             partFound = true;
             currentCountDown = countDownTime;
             scanText.text = correctObjectText;
-            scanTextBackground.color = correctObjectColor;
+            scanningStatusImage.color = correctObjectColor;
         } else {
             scanText.text = wrongObjectText;
-            scanTextBackground.color = wrongObjectColor;
+            scanningStatusImage.color = wrongObjectColor;
         }
     }
 
     public void PartLost(GameObject lostPart){
         scanText.text = noObjectText;
-        scanTextBackground.color = noObjectColor;
+        scanningStatusImage.color = noObjectColor;
         partFound = false;
     }
 
     public void ForceEndSearch() {
         scanText.text = noObjectText;
-        scanTextBackground.color = noObjectColor;
+        scanningStatusImage.color = noObjectColor;
         partFound = false;
         currentPartName = "";
         UIModeToggle.toggleManual(true);

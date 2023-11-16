@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -272,26 +272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   partSprite: {fileID: 8788707939931709032, guid: 6ebd99a54752f5d43a0649275ce4253d, type: 3}
   partName: Base Jaw Plate
---- !u!114 &111152071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 111152059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 111152062}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: base_jaw_plate
-  mDatasetName: Vuforia/Vice_test_1.xml
-  mCastedBehaviour: {fileID: 111152062}
-  mModelScale: {x: 0.006976001, y: 0.070068, z: 0.026057001}
-  mModelTargetPreview: {fileID: 0}
---- !u!114 &111152073
+--- !u!114 &111152068
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -805,14 +786,17 @@ MonoBehaviour:
   partImage: {fileID: 499453065}
   partText: {fileID: 1485082154}
   scanText: {fileID: 1245928781}
-  scanTextBackground: {fileID: 789513556}
-  noObjectText: "Plac\xE9r objekt i vinduet"
-  wrongObjectText: Forkert objekt scannet
-  correctObjectText: 'Objekt fundet. Scanning slutter om: '
+  scanningStatusImage: {fileID: 789513556}
+  scanningStatusButton: {fileID: 789513555}
+  noObjectText: "Plac\xE9r del i vinduet."
+  wrongObjectText: Forkert del scannet.
+  correctObjectText: 'Korrekt del scannet.
+
+    Afslutter om: '
   noObjectColor: {r: 1, g: 1, b: 1, a: 0.3137255}
   wrongObjectColor: {r: 0.6320754, g: 0.12224099, b: 0.12224099, a: 0.3137255}
   correctObjectColor: {r: 0.10426309, g: 0.6698113, b: 0.1456666, a: 0.3137255}
-  countDownTime: 5
+  countDownTime: 3
 --- !u!1 &324772491
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,12 +1033,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4065d8f176504c488c021425cc20835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  helpTextPrompt: "Funktionalitet:\n\r\nHer kan du scanne delene og finde den du
-    skal bruge.\n\nEfter at have scannet den korrekte del, bliver du automatisk sendt
-    tilbage til manualen.\n\n\nHvis du har problemer med at scanne en del kan du
-    pr\xF8ve at: \n\nCentrere delen der skal scannes.\n\nJustere p\xE5 vinklen af
-    den del du scanner.\r\n\nPlacere delen p\xE5 en neutral baggrund der har kontrast
-    til delen.\n\nReng\xF8re kameraet lense."
+  helpTextPrompt: "Scan dine dele for at g\xF8re din oplevelse lettere.\n\n\n<b>Scanning</b>\n\r\n\nScanner
+    du en korrekt del, vil du bedes vente tre sekunder eller trykke p\xE5 den gr\xF8nne
+    knap.\n\nScanner du en forkert del, bedes du finde den korrekt del og pr\xF8ve
+    igen.\n\n\n\n<b>Problemer ved scanning</b>\n\n\nHvis du har problemer med at
+    scanne en del, kan du pr\xF8ve at justere vinklen for at reducere gensk\xE6r,
+    eller placere delen p\xE5 en kontrasterende baggrund.\n\n\n\n<b>Centr\xE9r delen</b>\nPlac\xE9r
+    delen inden for det afgr\xE6nsede omr\xE5de i midten af sk\xE6rmen for nemmere
+    scanning."
   helpText: {fileID: 1979490496}
   helpButton: {fileID: 391500828}
   helpIcon: {fileID: 197420497692671416, guid: ef8e77671a699b449b6c03a9fa88e63c, type: 3}
@@ -1190,26 +1176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   partSprite: {fileID: -6647865950013352389, guid: 6ebd99a54752f5d43a0649275ce4253d, type: 3}
   partName: Sliding Jaw Plate
---- !u!114 &424642232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 424642220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 424642223}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: sliding_jaw_plate
-  mDatasetName: Vuforia/Vice_test_1.xml
-  mCastedBehaviour: {fileID: 424642223}
-  mModelScale: {x: 0.015080005, y: 0.070068, z: 0.026057001}
-  mModelTargetPreview: {fileID: 0}
---- !u!114 &424642234
+--- !u!114 &424642229
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2242,7 +2209,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 789513556}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 310203035}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: ForceEndSearch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &789513556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3044,26 +3023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   partSprite: {fileID: 21300000, guid: 89314c94b1ddd4f4daeee5b0c6c1d87c, type: 3}
   partName: Center Gear/Handle
---- !u!114 &1022703166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1022703155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1022703157}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: center_gear
-  mDatasetName: Vuforia/Vice_test_1.xml
-  mCastedBehaviour: {fileID: 1022703157}
-  mModelScale: {x: 0.067066, y: 0.035579, z: 0.035579}
-  mModelTargetPreview: {fileID: 0}
---- !u!114 &1022703168
+--- !u!114 &1022703163
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3117,26 +3077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   partSprite: {fileID: 21300000, guid: 1fcd0c42fa814054893b11d4eaf910b8, type: 3}
   partName: Sliding Jaw
---- !u!114 &1025399160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1025399148}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1025399151}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: sliding_jaw
-  mDatasetName: Vuforia/Vice_test_1.xml
-  mCastedBehaviour: {fileID: 1025399151}
-  mModelScale: {x: 0.10195, y: 0.064981, z: 0.038312}
-  mModelTargetPreview: {fileID: 0}
---- !u!114 &1025399162
+--- !u!114 &1025399157
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3292,10 +3233,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1823911560}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -160, y: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -738}
+  m_SizeDelta: {x: 920, y: 774}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1047148971
 MonoBehaviour:
@@ -3344,15 +3285,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3562,26 +3503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   partSprite: {fileID: -70729640457528935, guid: 7cbfb180e9bac034181dbba7c3274f99, type: 3}
   partName: Gear
---- !u!114 &1085813934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1085813922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1085813925}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: main_gear
-  mDatasetName: Vuforia/Vice_test_1.xml
-  mCastedBehaviour: {fileID: 1085813925}
-  mModelScale: {x: 0.012025, y: 0.029829998, z: 0.029829998}
-  mModelTargetPreview: {fileID: 0}
---- !u!114 &1085813936
+--- !u!114 &1085813931
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3896,26 +3818,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   partSprite: {fileID: 7667416569732135194, guid: 6ebd99a54752f5d43a0649275ce4253d, type: 3}
   partName: Base B
---- !u!114 &1253346100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1253346089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1253346091}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: base_jaw_B
-  mDatasetName: Vuforia/Vice_test_1.xml
-  mCastedBehaviour: {fileID: 1253346091}
-  mModelScale: {x: 0.158176, y: 0.035123996, z: 0.044156004}
-  mModelTargetPreview: {fileID: 0}
---- !u!114 &1253346102
+--- !u!114 &1253346097
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4633,26 +4536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   partSprite: {fileID: -5942997234546647401, guid: 6ebd99a54752f5d43a0649275ce4253d, type: 3}
   partName: Base A
---- !u!114 &1471763526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1471763514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1471763517}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: base_jaw_A
-  mDatasetName: Vuforia/Vice_test_1.xml
-  mCastedBehaviour: {fileID: 1471763517}
-  mModelScale: {x: 0.158176, y: 0.045006, z: 0.044156004}
-  mModelTargetPreview: {fileID: 0}
---- !u!114 &1471763528
+--- !u!114 &1471763523
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5082,14 +4966,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4065d8f176504c488c021425cc20835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  helpTextPrompt: "Funktionalitet:\n\r\nHvis du er usikker p\xE5 om du har fat p\xE5
-    den rigtige del, kan du scanne den med dit kamera ved at trykke p\xE5 billedet
-    af den over 3D-modellen.\r\n\nVed at stryge din finger over 3D-modellen kan du
-    rotere modellen\r\r\n\nDu kan til enhver tid stoppe eller starte videoen ved
-    at trykke p\xE5 play/pause knappen.\n\nDu kan ogs\xE5 spole i videoen ved at
-    tr\xE6kke i baren i bunden af sk\xE6rmen.\n\nVed at trykke p\xE5 knappen til
-    h\xF8jre for videobaren kan du justere hastigeden p\xE5 videoen.\n\nFor at skifte
-    trin i manualen skal du g\xF8re brug af pilene i bunden af sk\xE6rmen.\r"
+  helpTextPrompt: "Ved at bruge IKEA Beyond, kan du intuitivt samle dit m\xE5bel
+    ved hj\xE6lp af samlevejledningen. Heraf vil du finde forskellige funktioner,
+    der vil g\xF8re din byggeproces lettere og mere overskuelig.\n\n\n\n<b>Navigation</b>\n\n\nDu
+    kan bev\xE6ge dig mellem alle trin i samlevejledningen ved at bruge pi\xE6ene
+    i bunden af sk\xE6rmen.\n\nHvis du har sv\xE6rt ved at finde den rigtige del
+    kan du trykke p\xE5 den tilsvarende del inde i cirklen med de stiplede linjer,
+    hvor du vil blive f\xF8rt videre til at scanne dine dele.\n\n\n\n<b>Animation</b>\n\n\nAnimationen
+    i midten af sk\xE6rmen viser dig, hvordan dit valgte produkt skal samles trin
+    for trin. Du kan med fordel f\xF8lge anvisningerne og pause animationen efter
+    dit behov.\n\nVed at bruge animations slideren under animationen kan du spole
+    frem og tilbage i byggeprocessen.\n\nDu kan justere animationens hastighed p\xE5
+    knappen til h\xF8jre for slideren.\n\n\n\n<b>3D funktionalitet</b>\n\n\nVed at
+    swipe modellen med din finger kan du rotere animationen og f\xE5 et bedre kig
+    p\xE5 byggeprocessen."
   helpText: {fileID: 1047148971}
   helpButton: {fileID: 1513704823}
   helpIcon: {fileID: 197420497692671416, guid: ef8e77671a699b449b6c03a9fa88e63c, type: 3}
@@ -6744,15 +6634,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -6808,10 +6698,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 871534418}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -160, y: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -1950}
+  m_SizeDelta: {x: 920, y: 900}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1992883059
 GameObject:
@@ -7220,26 +7110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   partSprite: {fileID: 21300000, guid: 3ab34c6b723ebbf419ac81c56e8ff20a, type: 3}
   partName: 
---- !u!114 &2075064814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2075064802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2075064805}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: base_clip
-  mDatasetName: Vuforia/Vice_test_1.xml
-  mCastedBehaviour: {fileID: 2075064805}
-  mModelScale: {x: 0.005780004, y: 0.070068, z: 0.0028719995}
-  mModelTargetPreview: {fileID: 0}
---- !u!114 &2075064816
+--- !u!114 &2075064811
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7356,10 +7227,7 @@ PrefabInstance:
       addedObject: {fileID: 1085813929}
     - targetCorrespondingSourceObject: {fileID: 919027481065202753, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1085813934}
-    - targetCorrespondingSourceObject: {fileID: 919027481065202753, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1085813936}
+      addedObject: {fileID: 1085813931}
   m_SourcePrefab: {fileID: 100100000, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
 --- !u!1001 &1186856792430655736
 PrefabInstance:
@@ -7451,10 +7319,7 @@ PrefabInstance:
       addedObject: {fileID: 2075064809}
     - targetCorrespondingSourceObject: {fileID: 1308456700309020, guid: 25386fce23b24f24ca9880c693440f32, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2075064814}
-    - targetCorrespondingSourceObject: {fileID: 1308456700309020, guid: 25386fce23b24f24ca9880c693440f32, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2075064816}
+      addedObject: {fileID: 2075064811}
   m_SourcePrefab: {fileID: 100100000, guid: 25386fce23b24f24ca9880c693440f32, type: 3}
 --- !u!1001 &2508708910382461499
 PrefabInstance:
@@ -7546,10 +7411,7 @@ PrefabInstance:
       addedObject: {fileID: 1253346095}
     - targetCorrespondingSourceObject: {fileID: 7957855586038054317, guid: 813dcd1ab6f13d545b5d9201c6628758, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1253346100}
-    - targetCorrespondingSourceObject: {fileID: 7957855586038054317, guid: 813dcd1ab6f13d545b5d9201c6628758, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1253346102}
+      addedObject: {fileID: 1253346097}
   m_SourcePrefab: {fileID: 100100000, guid: 813dcd1ab6f13d545b5d9201c6628758, type: 3}
 --- !u!1001 &3554328190697345165
 PrefabInstance:
@@ -7649,10 +7511,7 @@ PrefabInstance:
       addedObject: {fileID: 1022703161}
     - targetCorrespondingSourceObject: {fileID: 4328096389511575196, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1022703166}
-    - targetCorrespondingSourceObject: {fileID: 4328096389511575196, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1022703168}
+      addedObject: {fileID: 1022703163}
   m_SourcePrefab: {fileID: 100100000, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
 --- !u!1001 &6094651470475685504
 PrefabInstance:
@@ -7744,10 +7603,7 @@ PrefabInstance:
       addedObject: {fileID: 111152066}
     - targetCorrespondingSourceObject: {fileID: 5356064855512395449, guid: f3c96e3742373b24c821863803391750, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 111152071}
-    - targetCorrespondingSourceObject: {fileID: 5356064855512395449, guid: f3c96e3742373b24c821863803391750, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 111152073}
+      addedObject: {fileID: 111152068}
   m_SourcePrefab: {fileID: 100100000, guid: f3c96e3742373b24c821863803391750, type: 3}
 --- !u!1001 &6226759846853661314
 PrefabInstance:
@@ -7839,10 +7695,7 @@ PrefabInstance:
       addedObject: {fileID: 1471763521}
     - targetCorrespondingSourceObject: {fileID: 899376607071392881, guid: e6be8bb4328a8574888aaee5b10fae29, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1471763526}
-    - targetCorrespondingSourceObject: {fileID: 899376607071392881, guid: e6be8bb4328a8574888aaee5b10fae29, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1471763528}
+      addedObject: {fileID: 1471763523}
   m_SourcePrefab: {fileID: 100100000, guid: e6be8bb4328a8574888aaee5b10fae29, type: 3}
 --- !u!1001 &7454698430136256852
 PrefabInstance:
@@ -7934,10 +7787,7 @@ PrefabInstance:
       addedObject: {fileID: 424642227}
     - targetCorrespondingSourceObject: {fileID: 4968077165818732922, guid: ae955d8f0b293594d94d201ecc1efd8c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 424642232}
-    - targetCorrespondingSourceObject: {fileID: 4968077165818732922, guid: ae955d8f0b293594d94d201ecc1efd8c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 424642234}
+      addedObject: {fileID: 424642229}
   m_SourcePrefab: {fileID: 100100000, guid: ae955d8f0b293594d94d201ecc1efd8c, type: 3}
 --- !u!1001 &9078668153499317739
 PrefabInstance:
@@ -8029,10 +7879,7 @@ PrefabInstance:
       addedObject: {fileID: 1025399155}
     - targetCorrespondingSourceObject: {fileID: 1596560343814329341, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1025399160}
-    - targetCorrespondingSourceObject: {fileID: 1596560343814329341, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1025399162}
+      addedObject: {fileID: 1025399157}
   m_SourcePrefab: {fileID: 100100000, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
