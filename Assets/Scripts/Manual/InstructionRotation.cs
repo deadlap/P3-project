@@ -10,7 +10,7 @@ public class InstructionRotation : MonoBehaviour, IDragHandler, IEndDragHandler,
 {
     [SerializeField] Image dragArea;
     [SerializeField] GameObject targetToOrbit;
-    [SerializeField] GameObject arrow3d;
+    [SerializeField] GameObject resetButton;
     [SerializeField] float rotationSpeed;
     [SerializeField] new Camera camera;
     bool resetToDefault;
@@ -25,6 +25,7 @@ public class InstructionRotation : MonoBehaviour, IDragHandler, IEndDragHandler,
 
     void Start(){
         resetToDefault = false;
+        resetButton.SetActive(false);
     }
 
     public void ResetRotation(){
@@ -36,7 +37,7 @@ public class InstructionRotation : MonoBehaviour, IDragHandler, IEndDragHandler,
         instance.targetToOrbit.transform.rotation = Quaternion.Euler(0,0,0);
     }
 
-    void Update() {
+    void FixedUpdate() { //for at undgå spasmer
         if (resetToDefault){
             Vector3 cur_rotation = targetToOrbit.transform.eulerAngles;
             targetToOrbit.transform.Rotate(
@@ -44,9 +45,10 @@ public class InstructionRotation : MonoBehaviour, IDragHandler, IEndDragHandler,
                 cur_rotation.y < 180 ? -Time.deltaTime*resetSpeed : Time.deltaTime*resetSpeed,
                 0
             );
-            Debug.Log(Mathf.Abs(targetToOrbit.transform.rotation.y));
+            //Debug.Log(Mathf.Abs(targetToOrbit.transform.rotation.y));
             if (Mathf.Abs(targetToOrbit.transform.eulerAngles.y) < resetThreshold) {
                 ForceResetRotation();
+                resetButton.SetActive(false);
             }
         }
     }
@@ -55,22 +57,15 @@ public class InstructionRotation : MonoBehaviour, IDragHandler, IEndDragHandler,
     {
         var target = targetToOrbit.transform.position;
         targetToOrbit.transform.Rotate(Vector3.down, eventData.delta.x * rotationSpeed);
-        //camera.transform.RotateAround(target, Vector3.right, eventData.delta.x * rotationSpeed);
-        //camera.transform.RotateAround(target, localRight, -eventData.delta.y * rotationSpeed);
-        //^^^^Det er stadig vildt funky^^^^
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        arrow3d.SetActive(true);
-        //localUp = targetToOrbit.transform.TransformDirection(Vector3.up);
-        //localRight = targetToOrbit.transform.TransformDirection(Vector3.right);
+        resetButton.SetActive(true);
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        arrow3d.SetActive(false);
-        //localUp = targetToOrbit.transform.TransformDirection(Vector3.up);
-        //localRight = targetToOrbit.transform.TransformDirection(Vector3.right);
+        resetButton.SetActive(false);
     }
 }

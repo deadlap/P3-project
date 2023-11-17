@@ -12,6 +12,7 @@ public class SliderDrag : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public void OnPointerDown(PointerEventData eventData)
     {
         isDragging = true;
+        InstructionAnimationManipulator.instance.ProgressSlider();
     }
 
     public void OnPointerUp(PointerEventData eventData)

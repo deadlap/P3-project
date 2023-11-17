@@ -10,6 +10,8 @@ public class StepSwitcher : MonoBehaviour {
         InstructionRotation.ForceResetRotation();
         generator.DestroyChildren();
         generator.GenerateStep();
+        if(InstructionAnimationManipulator.instance.isPlaying == false)
+            InstructionAnimationManipulator.instance.SwitchPlayState();
         if (StepCounter.CurrentStep < StepCounter.MaxSteps ) {
             finishManualButton.SetActive(false);
         } else {

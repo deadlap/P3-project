@@ -13,7 +13,7 @@ public class HelpButton : MonoBehaviour
     [SerializeField] Image helpButton;
     [SerializeField] Sprite helpIcon;
     [SerializeField] Sprite exitIcon;
-    Color[] colors = new []{new Color(255,255,255,255), new Color(0,0,0,255)};
+    Color[] colors = {new (255,255,255,255), new (0,0,0,255)};
 
     [Header("GameObjects")]
     [SerializeField] GameObject helpPanel;
