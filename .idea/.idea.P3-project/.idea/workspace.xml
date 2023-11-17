@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="769c6849-1082-40ec-8120-d95da2eb4e8b" name="Changes" comment="" />
+    <list default="true" id="769c6849-1082-40ec-8120-d95da2eb4e8b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.P3-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.P3-project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Manual.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Manual.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +15,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manual/InstructionAnimationManipulator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manual/SliderDrag.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Project-P202/Assets/Scripts/ScrollWheels/FindElement.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,7 +51,7 @@
       <method v="2" />
     </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\GitHub\P3-project -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\GitHub\P3-project" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -92,6 +96,7 @@
       <workItem from="1699979923116" duration="1260000" />
       <workItem from="1700138871539" duration="1309000" />
       <workItem from="1700160464219" duration="3860000" />
+      <workItem from="1700215264162" duration="368000" />
     </task>
     <servers />
   </component>
