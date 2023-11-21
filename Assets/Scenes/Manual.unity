@@ -1217,6 +1217,45 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &419981935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 419981936}
+  m_Layer: 0
+  m_Name: Slider Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &419981936
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419981935}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 980144915}
+  - {fileID: 2074300658}
+  - {fileID: 764629581}
+  - {fileID: 1916516844}
+  m_Father: {fileID: 540768107}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -825}
+  m_SizeDelta: {x: 950, y: 120}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &424642220 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4968077165818732922, guid: ae955d8f0b293594d94d201ecc1efd8c, type: 3}
@@ -1667,10 +1706,7 @@ RectTransform:
   - {fileID: 1394453567}
   - {fileID: 821561343}
   - {fileID: 1992883060}
-  - {fileID: 980144915}
-  - {fileID: 2074300658}
-  - {fileID: 764629581}
-  - {fileID: 1916516844}
+  - {fileID: 419981936}
   - {fileID: 1474589929}
   - {fileID: 177513223}
   m_Father: {fileID: 389067972}
@@ -2050,18 +2086,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 764629580}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1723356448}
   - {fileID: 927219141}
-  m_Father: {fileID: 540768107}
+  m_Father: {fileID: 419981936}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 365, y: -838}
+  m_AnchoredPosition: {x: -59.99997, y: 60.000122}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &764629584
@@ -3029,11 +3065,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1506009968}
-  m_Father: {fileID: 540768107}
+  m_Father: {fileID: 419981936}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -365, y: -838}
+  m_AnchoredPosition: {x: 59.99997, y: 60.000122}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &980144916
@@ -3332,6 +3368,7 @@ MonoBehaviour:
   finishManualButton: {fileID: 1334690603}
   nextStepButton: {fileID: 1992883059}
   previousStepButton: {fileID: 821561342}
+  sliderArea: {fileID: 419981935}
 --- !u!114 &1032151182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6839,11 +6876,11 @@ RectTransform:
   - {fileID: 635199683}
   - {fileID: 1333414580}
   - {fileID: 723490304}
-  m_Father: {fileID: 540768107}
+  m_Father: {fileID: 419981936}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -838}
+  m_AnchoredPosition: {x: 0, y: 60.000122}
   m_SizeDelta: {x: 700, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1916516845
@@ -7528,11 +7565,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1223168912}
-  m_Father: {fileID: 540768107}
+  m_Father: {fileID: 419981936}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -365, y: -838}
+  m_AnchoredPosition: {x: 59.99997, y: 60.000122}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2074300659
