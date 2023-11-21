@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="769c6849-1082-40ec-8120-d95da2eb4e8b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.P3-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.P3-project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Graphics/UI/Phone-Steps.psb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Graphics/UI/Phone-Steps.psb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Graphics/UI/Phone-Steps.psb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Graphics/UI/Phone-Steps.psb.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Manual.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Manual.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/QRScanPage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/QRScanPage.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manual/HelpButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manual/HelpButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manual/InstructionAnimationManipulator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manual/InstructionAnimationManipulator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manual/InstructionRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manual/InstructionRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manual/SliderDrag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manual/SliderDrag.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manual/StepSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manual/StepSwitcher.cs" afterDir="false" />
-    </list>
+    <list default="true" id="769c6849-1082-40ec-8120-d95da2eb4e8b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +46,7 @@
       <method v="2" />
     </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\GitHub\P3-project -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\GitHub\P3-project" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -103,6 +92,7 @@
       <workItem from="1700138871539" duration="1309000" />
       <workItem from="1700160464219" duration="3860000" />
       <workItem from="1700215264162" duration="7212000" />
+      <workItem from="1700566033664" duration="324000" />
     </task>
     <servers />
   </component>

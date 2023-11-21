@@ -15,7 +15,7 @@ public class InstructionAnimationManipulator : MonoBehaviour {
     [SerializeField] GameObject playButton;
     [SerializeField] GameObject pauseButton;
     [SerializeField] GameObject speedButtonMenu;
-    bool speedMenuOpened;
+    public bool speedMenuOpened;
     Animator currentAnim;
     [HideInInspector] public bool isPlaying;
     float animTime;
