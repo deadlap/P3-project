@@ -366,6 +366,63 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 111152062}
   mModelScale: {x: 0.006976001, y: 0.070068, z: 0.026057001}
   mModelTargetPreview: {fileID: 0}
+--- !u!114 &111152069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111152059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 111152062}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: base_jaw_plate
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 111152062}
+  mModelScale: {x: 0.006976001, y: 0.070068, z: 0.026057001}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &111152070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111152059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 111152062}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: base_jaw_plate
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 111152062}
+  mModelScale: {x: 0.006976001, y: 0.070068, z: 0.026057001}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &111152071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111152059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 111152062}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: base_jaw_plate
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 111152062}
+  mModelScale: {x: 0.006976001, y: 0.070068, z: 0.026057001}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1 &144243790
 GameObject:
   m_ObjectHideFlags: 0
@@ -1292,6 +1349,63 @@ MonoBehaviour:
   partSprite: {fileID: -6647865950013352389, guid: 6ebd99a54752f5d43a0649275ce4253d, type: 3}
   partName: Sliding Jaw Plate
 --- !u!114 &424642229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424642220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 424642223}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: sliding_jaw_plate
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 424642223}
+  mModelScale: {x: 0.015080005, y: 0.070068, z: 0.026057001}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &424642230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424642220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 424642223}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: sliding_jaw_plate
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 424642223}
+  mModelScale: {x: 0.015080005, y: 0.070068, z: 0.026057001}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &424642231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424642220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 424642223}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: sliding_jaw_plate
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 424642223}
+  mModelScale: {x: 0.015080005, y: 0.070068, z: 0.026057001}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &424642232
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3251,6 +3365,63 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1022703157}
   mModelScale: {x: 0.067066, y: 0.035579, z: 0.035579}
   mModelTargetPreview: {fileID: 0}
+--- !u!114 &1022703164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022703155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1022703157}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: center_gear
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 1022703157}
+  mModelScale: {x: 0.067066, y: 0.035579, z: 0.035579}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &1022703165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022703155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1022703157}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: center_gear
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 1022703157}
+  mModelScale: {x: 0.067066, y: 0.035579, z: 0.035579}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &1022703166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022703155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1022703157}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: center_gear
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 1022703157}
+  mModelScale: {x: 0.067066, y: 0.035579, z: 0.035579}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1 &1025399148 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1596560343814329341, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
@@ -3287,6 +3458,63 @@ MonoBehaviour:
   partSprite: {fileID: 21300000, guid: 1fcd0c42fa814054893b11d4eaf910b8, type: 3}
   partName: Sliding Jaw
 --- !u!114 &1025399157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025399148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1025399151}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: sliding_jaw
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 1025399151}
+  mModelScale: {x: 0.10195, y: 0.064981, z: 0.038312}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &1025399158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025399148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1025399151}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: sliding_jaw
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 1025399151}
+  mModelScale: {x: 0.10195, y: 0.064981, z: 0.038312}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &1025399159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025399148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1025399151}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: sliding_jaw
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 1025399151}
+  mModelScale: {x: 0.10195, y: 0.064981, z: 0.038312}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &1025399160
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3734,6 +3962,63 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1085813925}
   mModelScale: {x: 0.012025, y: 0.029829998, z: 0.029829998}
   mModelTargetPreview: {fileID: 0}
+--- !u!114 &1085813932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085813922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1085813925}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: main_gear
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 1085813925}
+  mModelScale: {x: 0.012025, y: 0.029829998, z: 0.029829998}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &1085813933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085813922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1085813925}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: main_gear
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 1085813925}
+  mModelScale: {x: 0.012025, y: 0.029829998, z: 0.029829998}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &1085813934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085813922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1085813925}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: main_gear
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 1085813925}
+  mModelScale: {x: 0.012025, y: 0.029829998, z: 0.029829998}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1 &1095144365
 GameObject:
   m_ObjectHideFlags: 0
@@ -3859,8 +4144,8 @@ MonoBehaviour:
   resetButton: {fileID: 1474589928}
   rotationSpeed: 0.5
   camera: {fileID: 0}
-  resetSpeed: 350
-  resetThreshold: 10
+  resetSpeed: 380
+  resetThreshold: 15
 --- !u!1 &1223168911
 GameObject:
   m_ObjectHideFlags: 0
@@ -4124,6 +4409,63 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1253346091}
   mModelScale: {x: 0.158176, y: 0.035123996, z: 0.044156004}
   mModelTargetPreview: {fileID: 0}
+--- !u!114 &1253346098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253346089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1253346091}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: base_jaw_B
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 1253346091}
+  mModelScale: {x: 0.158176, y: 0.035123996, z: 0.044156004}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &1253346099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253346089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1253346091}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: base_jaw_B
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 1253346091}
+  mModelScale: {x: 0.158176, y: 0.035123996, z: 0.044156004}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &1253346100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253346089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1253346091}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: base_jaw_B
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 1253346091}
+  mModelScale: {x: 0.158176, y: 0.035123996, z: 0.044156004}
+  mModelTargetPreview: {fileID: 0}
 --- !u!21 &1262892638
 Material:
   serializedVersion: 8
@@ -4353,7 +4695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1334690604
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4371,8 +4713,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -974}
-  m_SizeDelta: {x: 560, y: 210}
+  m_AnchoredPosition: {x: 0, y: -800}
+  m_SizeDelta: {x: 960, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1334690605
 MonoBehaviour:
@@ -4443,14 +4785,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.14117648, g: 0.3372549, b: 0.6156863, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8193175033355610682, guid: da2593e725d56bc4e9f8da86bdefd860, type: 3}
+  m_Sprite: {fileID: -7820153969846392707, guid: dabb43f5d825ffa40a2382a1a129bc68, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -4900,6 +5242,63 @@ MonoBehaviour:
   partSprite: {fileID: -5942997234546647401, guid: 6ebd99a54752f5d43a0649275ce4253d, type: 3}
   partName: Base A
 --- !u!114 &1471763523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471763514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1471763517}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: base_jaw_A
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 1471763517}
+  mModelScale: {x: 0.158176, y: 0.045006, z: 0.044156004}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &1471763524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471763514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1471763517}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: base_jaw_A
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 1471763517}
+  mModelScale: {x: 0.158176, y: 0.045006, z: 0.044156004}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &1471763525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471763514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1471763517}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: base_jaw_A
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 1471763517}
+  mModelScale: {x: 0.158176, y: 0.045006, z: 0.044156004}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &1471763526
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7720,6 +8119,63 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 2075064805}
   mModelScale: {x: 0.005780004, y: 0.070068, z: 0.0028719995}
   mModelTargetPreview: {fileID: 0}
+--- !u!114 &2075064812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075064802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2075064805}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: base_clip
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 2075064805}
+  mModelScale: {x: 0.005780004, y: 0.070068, z: 0.0028719995}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &2075064813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075064802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2075064805}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: base_clip
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 2075064805}
+  mModelScale: {x: 0.005780004, y: 0.070068, z: 0.0028719995}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &2075064814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075064802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2075064805}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: base_clip
+  mDatasetName: Vuforia/Vice_test_1.xml
+  mCastedBehaviour: {fileID: 2075064805}
+  mModelScale: {x: 0.005780004, y: 0.070068, z: 0.0028719995}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1001 &132420678367055607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7819,6 +8275,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919027481065202753, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1085813931}
+    - targetCorrespondingSourceObject: {fileID: 919027481065202753, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1085813932}
+    - targetCorrespondingSourceObject: {fileID: 919027481065202753, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1085813933}
+    - targetCorrespondingSourceObject: {fileID: 919027481065202753, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1085813934}
   m_SourcePrefab: {fileID: 100100000, guid: 5f6b4fec76ac42043a53ca41bafe7b04, type: 3}
 --- !u!1001 &1186856792430655736
 PrefabInstance:
@@ -7911,6 +8376,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1308456700309020, guid: 25386fce23b24f24ca9880c693440f32, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2075064811}
+    - targetCorrespondingSourceObject: {fileID: 1308456700309020, guid: 25386fce23b24f24ca9880c693440f32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2075064812}
+    - targetCorrespondingSourceObject: {fileID: 1308456700309020, guid: 25386fce23b24f24ca9880c693440f32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2075064813}
+    - targetCorrespondingSourceObject: {fileID: 1308456700309020, guid: 25386fce23b24f24ca9880c693440f32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2075064814}
   m_SourcePrefab: {fileID: 100100000, guid: 25386fce23b24f24ca9880c693440f32, type: 3}
 --- !u!1001 &2508708910382461499
 PrefabInstance:
@@ -8003,6 +8477,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7957855586038054317, guid: 813dcd1ab6f13d545b5d9201c6628758, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1253346097}
+    - targetCorrespondingSourceObject: {fileID: 7957855586038054317, guid: 813dcd1ab6f13d545b5d9201c6628758, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1253346098}
+    - targetCorrespondingSourceObject: {fileID: 7957855586038054317, guid: 813dcd1ab6f13d545b5d9201c6628758, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1253346099}
+    - targetCorrespondingSourceObject: {fileID: 7957855586038054317, guid: 813dcd1ab6f13d545b5d9201c6628758, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1253346100}
   m_SourcePrefab: {fileID: 100100000, guid: 813dcd1ab6f13d545b5d9201c6628758, type: 3}
 --- !u!1001 &3554328190697345165
 PrefabInstance:
@@ -8103,6 +8586,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4328096389511575196, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1022703163}
+    - targetCorrespondingSourceObject: {fileID: 4328096389511575196, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1022703164}
+    - targetCorrespondingSourceObject: {fileID: 4328096389511575196, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1022703165}
+    - targetCorrespondingSourceObject: {fileID: 4328096389511575196, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1022703166}
   m_SourcePrefab: {fileID: 100100000, guid: 8082f4b164669b04bb2a008822dcd5ea, type: 3}
 --- !u!1001 &6094651470475685504
 PrefabInstance:
@@ -8195,6 +8687,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5356064855512395449, guid: f3c96e3742373b24c821863803391750, type: 3}
       insertIndex: -1
       addedObject: {fileID: 111152068}
+    - targetCorrespondingSourceObject: {fileID: 5356064855512395449, guid: f3c96e3742373b24c821863803391750, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 111152069}
+    - targetCorrespondingSourceObject: {fileID: 5356064855512395449, guid: f3c96e3742373b24c821863803391750, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 111152070}
+    - targetCorrespondingSourceObject: {fileID: 5356064855512395449, guid: f3c96e3742373b24c821863803391750, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 111152071}
   m_SourcePrefab: {fileID: 100100000, guid: f3c96e3742373b24c821863803391750, type: 3}
 --- !u!1001 &6226759846853661314
 PrefabInstance:
@@ -8287,6 +8788,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 899376607071392881, guid: e6be8bb4328a8574888aaee5b10fae29, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1471763523}
+    - targetCorrespondingSourceObject: {fileID: 899376607071392881, guid: e6be8bb4328a8574888aaee5b10fae29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1471763524}
+    - targetCorrespondingSourceObject: {fileID: 899376607071392881, guid: e6be8bb4328a8574888aaee5b10fae29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1471763525}
+    - targetCorrespondingSourceObject: {fileID: 899376607071392881, guid: e6be8bb4328a8574888aaee5b10fae29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1471763526}
   m_SourcePrefab: {fileID: 100100000, guid: e6be8bb4328a8574888aaee5b10fae29, type: 3}
 --- !u!1001 &7454698430136256852
 PrefabInstance:
@@ -8379,6 +8889,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4968077165818732922, guid: ae955d8f0b293594d94d201ecc1efd8c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 424642229}
+    - targetCorrespondingSourceObject: {fileID: 4968077165818732922, guid: ae955d8f0b293594d94d201ecc1efd8c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 424642230}
+    - targetCorrespondingSourceObject: {fileID: 4968077165818732922, guid: ae955d8f0b293594d94d201ecc1efd8c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 424642231}
+    - targetCorrespondingSourceObject: {fileID: 4968077165818732922, guid: ae955d8f0b293594d94d201ecc1efd8c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 424642232}
   m_SourcePrefab: {fileID: 100100000, guid: ae955d8f0b293594d94d201ecc1efd8c, type: 3}
 --- !u!1001 &9078668153499317739
 PrefabInstance:
@@ -8471,6 +8990,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1596560343814329341, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1025399157}
+    - targetCorrespondingSourceObject: {fileID: 1596560343814329341, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1025399158}
+    - targetCorrespondingSourceObject: {fileID: 1596560343814329341, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1025399159}
+    - targetCorrespondingSourceObject: {fileID: 1596560343814329341, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1025399160}
   m_SourcePrefab: {fileID: 100100000, guid: 3bf8b947e2e7d9f4eaf891c9b9752c93, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
