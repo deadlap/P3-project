@@ -8,6 +8,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../MED3-Spil/Assets/Scripts/Player/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Input/PinchZoom.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manual/InstructionAnimationManipulator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manual/SliderDrag.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -93,6 +95,7 @@
       <workItem from="1700160464219" duration="3860000" />
       <workItem from="1700215264162" duration="7212000" />
       <workItem from="1700566033664" duration="2708000" />
+      <workItem from="1701080685497" duration="8027000" />
     </task>
     <servers />
   </component>

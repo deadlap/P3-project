@@ -55,6 +55,7 @@ public class InstructionRotation : MonoBehaviour, IDragHandler, IEndDragHandler,
 
     public void OnDrag(PointerEventData eventData)
     {
+        if (PinchZoom.instance.isPinching) return;
         var target = targetToOrbit.transform.position;
         targetToOrbit.transform.Rotate(Vector3.down, eventData.delta.x * rotationSpeed);
     }
