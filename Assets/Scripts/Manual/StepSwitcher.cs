@@ -16,8 +16,15 @@ public class StepSwitcher : MonoBehaviour {
         previousStepButton.SetActive(false);
         sliderArea.SetActive(true);
         finishManualButton.SetActive(false);
+        var delay = .1f;
+        Invoke(nameof(HelpPopUp), delay);
     }
 
+    void HelpPopUp()
+    {
+        HelpButton.instance.HelpPressed();
+    }
+    
     public void ChangeStep(int change){
         StepCounter.UpdateStepNumber(change);
         InstructionRotation.ForceResetRotation();

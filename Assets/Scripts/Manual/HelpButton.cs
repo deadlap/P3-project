@@ -1,9 +1,12 @@
+using System;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class HelpButton : MonoBehaviour
 {
+    public static HelpButton instance;
     [Header("Text")] [SerializeField] [TextArea(5, 10)]
     string helpTextPrompt;
 
@@ -17,8 +20,15 @@ public class HelpButton : MonoBehaviour
 
     [Header("GameObjects")]
     [SerializeField] GameObject helpPanel;
+    [SerializeField] GameObject nyttigeTips;
     [SerializeField] GameObject manualObject;
     bool helpPressed;
+
+    void Awake()
+    {
+        instance = this;
+    }
+
     void Start()
     {
         helpButton.sprite = helpIcon;
@@ -29,6 +39,7 @@ public class HelpButton : MonoBehaviour
     {
         helpPressed = !helpPressed;
         helpPanel.SetActive(helpPressed);
+        nyttigeTips.SetActive(helpPressed);
         if(manualObject)
             manualObject.SetActive(!helpPressed);
         switch (helpPressed)
