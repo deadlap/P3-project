@@ -49,7 +49,7 @@ public class PinchZoom : MonoBehaviour
 
     void PinchDetection()
     {
-        print(isPinching);
+        print($"Using two finger is {isPinching}");
         touchDetection.Zoom.SecondFingerContact.performed += _ => isPinching = true;
         touchDetection.Zoom.SecondFingerContact.canceled += _ => isPinching = false;
         if (!isPinching)

@@ -1,11 +1,8 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class StepSwitcher : MonoBehaviour {
     [SerializeField] StepGenerator generator;
-    [SerializeField] GameObject finishManualButton;
+    [SerializeField] GameObject finishManual;
     [SerializeField] GameObject nextStepButton;
     [SerializeField] GameObject previousStepButton;
     [SerializeField] GameObject sliderArea;
@@ -15,14 +12,7 @@ public class StepSwitcher : MonoBehaviour {
         nextStepButton.SetActive(true);
         previousStepButton.SetActive(false);
         sliderArea.SetActive(true);
-        finishManualButton.SetActive(false);
-        var delay = .1f;
-        Invoke(nameof(HelpPopUp), delay);
-    }
-
-    void HelpPopUp()
-    {
-        HelpButton.instance.HelpPressed();
+        finishManual.SetActive(false);
     }
     
     public void ChangeStep(int change){
@@ -30,6 +20,8 @@ public class StepSwitcher : MonoBehaviour {
         InstructionRotation.ForceResetRotation();
         generator.DestroyChildren();
         generator.GenerateStep();
+        ProgressDotHandler.instance.HighlightDot(StepCounter.CurrentStep);
+        camera.fieldOfView = PinchZoom.instance.defaultZoomValue;
         if(InstructionAnimationManipulator.instance.isPlaying == false)
             InstructionAnimationManipulator.instance.SwitchPlayState();
         if(InstructionAnimationManipulator.instance.speedMenuOpened)
@@ -37,20 +29,17 @@ public class StepSwitcher : MonoBehaviour {
         if (StepCounter.CurrentStep == 1) {
             previousStepButton.SetActive(false);
             sliderArea.SetActive(true);
-            finishManualButton.SetActive(false);
-            camera.fieldOfView = PinchZoom.instance.defaultZoomValue;
+            finishManual.SetActive(false);
         } else if (StepCounter.CurrentStep < StepCounter.MaxSteps && StepCounter.CurrentStep != 1) {
             previousStepButton.SetActive(true);
             nextStepButton.SetActive(true);
-            finishManualButton.SetActive(false);
+            finishManual.SetActive(false);
             sliderArea.SetActive(true);
-            camera.fieldOfView = PinchZoom.instance.defaultZoomValue;
         } else {
             previousStepButton.SetActive(true);
             nextStepButton.SetActive(false);
-            finishManualButton.SetActive(true);
+            finishManual.SetActive(true);
             sliderArea.SetActive(false);
-            camera.fieldOfView = PinchZoom.instance.defaultZoomValue;
         }
     }
 }

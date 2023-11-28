@@ -1,12 +1,10 @@
-using System;
 using TMPro;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class HelpButton : MonoBehaviour
 {
-    public static HelpButton instance;
+    [SerializeField] bool isHelpButton;
     [Header("Text")] [SerializeField] [TextArea(5, 10)]
     string helpTextPrompt;
 
@@ -16,32 +14,41 @@ public class HelpButton : MonoBehaviour
     [SerializeField] Image helpButton;
     [SerializeField] Sprite helpIcon;
     [SerializeField] Sprite exitIcon;
-    Color[] colors = {new (255,255,255,255), new (0,0,0,255)};
+    Color[] colors = {new (1,1,1,255), new (0,0,0,0)};
 
     [Header("GameObjects")]
     [SerializeField] GameObject helpPanel;
     [SerializeField] GameObject nyttigeTips;
     [SerializeField] GameObject manualObject;
+    [SerializeField] GameObject manualButton;
+    [SerializeField] GameObject otherButton;
     bool helpPressed;
-
-    void Awake()
-    {
-        instance = this;
-    }
+    int menusClosed;
 
     void Start()
     {
         helpButton.sprite = helpIcon;
         helpText.text = helpTextPrompt;
+        var delay = 0.01f;
+        Invoke(nameof(HelpPressed), delay);
+        Invoke(nameof(StartSetActive), delay);
     }
 
     public void HelpPressed()
     {
+        menusClosed++;
         helpPressed = !helpPressed;
         helpPanel.SetActive(helpPressed);
-        nyttigeTips.SetActive(helpPressed);
-        if(manualObject)
+        if(nyttigeTips)
+            nyttigeTips.SetActive(helpPressed);
+        if(manualObject && menusClosed > 2)
             manualObject.SetActive(!helpPressed);
+        if(manualObject && menusClosed == 2 && !helpPressed && isHelpButton)
+            manualObject.SetActive(true);
+        if(manualButton && menusClosed == 2) 
+            manualButton.SetActive(false);
+        if (otherButton)
+            otherButton.SetActive(!helpPressed);
         switch (helpPressed)
         {
             case false:
@@ -53,5 +60,11 @@ public class HelpButton : MonoBehaviour
                 helpButton.sprite = exitIcon;
                 break;
         }
+    }
+
+    void StartSetActive()
+    {
+        manualButton.SetActive(true);
+        manualObject.SetActive(false);
     }
 }
