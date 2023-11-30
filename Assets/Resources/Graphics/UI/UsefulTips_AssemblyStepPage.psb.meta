@@ -94,27 +94,6 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Nyttige Tips
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 5611
-      width: 1080
-      height: 283
-    spriteID: 6ab22b812f6d18b4e8323be0213968a7
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 5611}
-    spritePosition: {x: 0, y: 5317}
   - name: Useful Tips Assembly Step Page
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -126,7 +105,7 @@ ScriptedImporter:
       y: 4
       width: 1080
       height: 5599
-    spriteID: be18c91ec1f248349880360b425a1d44
+    spriteID: 2ae8f41378865e941b96783f00540450
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -136,6 +115,27 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
     spritePosition: {x: 0, y: 1}
+  - name: Nyttige Tips
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5611
+      width: 1080
+      height: 283
+    spriteID: d473613943e057f4dafe80b73cd94f07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 5611}
+    spritePosition: {x: 0, y: 5317}
   characterData:
     bones: []
     parts: []
@@ -158,7 +158,7 @@ ScriptedImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     forceMaximumCompressionQuality_BC6H_BC7: 0
     crunchedCompression: 0
@@ -218,30 +218,30 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Nyttige Tips
-    spriteName: Nyttige Tips
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 6ab22b812f6d18b4e8323be0213968a7
-    layerID: 95
-    mosaicPosition: {x: 4, y: 5611}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
   - name: Useful Tips Assembly Step Page
     spriteName: Useful Tips Assembly Step Page
     isGroup: 0
     parentIndex: -1
-    spriteID: be18c91ec1f248349880360b425a1d44
-    layerID: 102
+    spriteID: 2ae8f41378865e941b96783f00540450
+    layerID: 119
     mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Nyttige Tips
+    spriteName: Nyttige Tips
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d473613943e057f4dafe80b73cd94f07
+    layerID: 95
+    mosaicPosition: {x: 4, y: 5611}
     flatten: 0
     isImported: 1
     isVisible: 1
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638367714016014715
+  platformSettingsDirtyTick: 638369533930305811
   spriteSizeExpandChanged: 0
   generateGOHierarchy: 0
   textureAssetName: 

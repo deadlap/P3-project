@@ -22,7 +22,7 @@ public class UIModeToggle : MonoBehaviour {
         instance.manualNonCanvas.SetActive(action);
         instance.detectionCanvasUI.SetActive(!action);
         instance.detectionNonCanvas.SetActive(!action);
-        instance.canvas.renderMode = action ? RenderMode.ScreenSpaceCamera : RenderMode.ScreenSpaceOverlay;
+        //instance.canvas.renderMode = action ? RenderMode.ScreenSpaceCamera : RenderMode.ScreenSpaceOverlay;
         VuforiaBehaviour.Instance.enabled = !action;
     }
 }

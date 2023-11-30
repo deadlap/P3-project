@@ -63,7 +63,7 @@ public class PinchZoom : MonoBehaviour
             prevMagnitude = magnitude;
         var difference = magnitude - prevMagnitude;
         prevMagnitude = magnitude;
-        Zoom(difference * zoomSpeed);
+        Zoom(-difference * zoomSpeed);
     }
 
     void Zoom(float zoomValue)
