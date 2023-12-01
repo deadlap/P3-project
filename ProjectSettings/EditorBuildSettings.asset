@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SearchPage.unity
     guid: 41974dc5f9e813e418d58f36469febe6
   - enabled: 1
+    path: Assets/Scenes/PrecisionTestScene.unity
+    guid: 53f576ecb889e3844a805170db14e5ad
+  - enabled: 1
     path: Assets/Scenes/ItemPage.unity
     guid: f4abc818cf9c9b3408e62d7c73bff911
   - enabled: 1
