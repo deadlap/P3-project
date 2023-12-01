@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QCARConfig>
+    <Tracking>
+        <ModelTarget name="LongWithHole" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="Long" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="Short" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="StepTop" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="StepBottom" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="ALeg1" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="ALeg2" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="SmallScrew" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="LargeScrew" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+        <ModelTarget name="WoodScrew" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"> </ModelTarget>
+    </Tracking>
+    <Assembly name="LongWithHole" assemblyId="0037825127a24962bdfd75396e06fb7f">
+        <Part name="LongWithHole" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="Long" assemblyId="7715a007381b45888912e73153f4775d">
+        <Part name="Long" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="Short" assemblyId="fe64517295b24bb095ed51ed2e7e9b9d">
+        <Part name="Short" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="StepTop" assemblyId="6c0eee0a8b1d4501a57f0d27ad14ff84">
+        <Part name="StepTop" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="StepBottom" assemblyId="85c9e1f786004bf3a692171704f586d5">
+        <Part name="StepBottom" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="ALeg1" assemblyId="0de1640cc21a4e94a0626c6401017f4a">
+        <Part name="ALeg1" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="ALeg2" assemblyId="c02464df597b441c9558a85b70328d74">
+        <Part name="ALeg2" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="SmallScrew" assemblyId="7b221cd7572e495fbb0263014bfa5009">
+        <Part name="SmallScrew" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="LargeScrew" assemblyId="35db00d5f3e8410296df5eeae431ef4b">
+        <Part name="LargeScrew" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="WoodScrew" assemblyId="c2bdd025ecb64dd1a3c7fd12b35de15a">
+        <Part name="WoodScrew" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <ModelTargetDatabase name="Bekvam_Taburet_No_Coloring"> </ModelTargetDatabase>
+</QCARConfig>
