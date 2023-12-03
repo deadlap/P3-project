@@ -11,6 +11,7 @@ public class StepGenerator : MonoBehaviour {
 
     public void GenerateStep(){
         ManualStep thisStep = ManualFetcher.CurrentManualStep();
+        /*
         for (int i = 0; i < ManualFetcher.CurrentParts().Count; i++) {
             GameObject button = GameObject.Instantiate(buttonPrefab, this.transform);
             button.GetComponentInChildren<PartButton>().SetPart(
@@ -19,7 +20,8 @@ public class StepGenerator : MonoBehaviour {
                 thisStep.parts[i].GetComponent<PartInfo>().partSprite
                 );
             button.SetActive(true);
-        }
+            
+        }*/
         GameObject.Instantiate(thisStep.instruction, instructionParentObject.transform);
     }
     public void DestroyChildren(){

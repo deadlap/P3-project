@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ProgressDotHandler : MonoBehaviour
 {
     public static ProgressDotHandler instance;
-    int stepCount;
+    //int stepCount;
     [SerializeField] GameObject dotPrefab;
     List<GameObject> generatedDots = new();
     Color selectedColor = new (1, 1, 1, 1);
@@ -17,22 +17,28 @@ public class ProgressDotHandler : MonoBehaviour
     void Awake()
     {
         instance = this;
-        GenerateProgressDots();
-        HighlightDot(1);
+    }
+
+    void Start()
+    {
+        print("currentstep" + StepCounter.CurrentStep);
+        var delay = 0.001f;
+        Invoke(nameof(GenerateProgressDots), delay);
     }
 
     void GenerateProgressDots()
     {
-        stepCount = ManualFetcher.GetManual().steps.Count;
-        for (int i = 0; i < stepCount; i++)
+        for (int i = 0; i < StepCounter.MaxSteps; i++)
         {
             GameObject newDot = Instantiate(dotPrefab, transform.position, Quaternion.identity, gameObject.transform);
             generatedDots.Add(newDot);
         }
+        HighlightDot(1);
     }
 
     public void HighlightDot(int currentStep)
     {
+        print($"highlight dot: {StepCounter.CurrentStep}");
         for (int i = 0; i < generatedDots.Count; i++)
         {
             generatedDots[i].gameObject.transform.localScale = notSelectedSize;

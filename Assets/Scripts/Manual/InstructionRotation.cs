@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -11,6 +7,7 @@ public class InstructionRotation : MonoBehaviour, IDragHandler, IEndDragHandler,
     [SerializeField] Image dragArea;
     [SerializeField] GameObject targetToOrbit;
     [SerializeField] GameObject resetButton;
+    static readonly float xRotation = -12f;
     [SerializeField] float rotationSpeed;
     [SerializeField] new Camera camera;
     bool resetToDefault;
@@ -34,7 +31,7 @@ public class InstructionRotation : MonoBehaviour, IDragHandler, IEndDragHandler,
 
     public static void ForceResetRotation(){
         instance.resetToDefault = false;
-        instance.targetToOrbit.transform.rotation = Quaternion.Euler(0,0,0);
+        instance.targetToOrbit.transform.rotation = Quaternion.Euler(xRotation,0f,0f);
     }
 
     void FixedUpdate() { //for at undgå spasmer
