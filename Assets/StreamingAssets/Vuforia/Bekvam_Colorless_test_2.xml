@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QCARConfig>
+    <Tracking>
+        <ModelTarget name="ALeg1" trackingMode="car" motionHint="static" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects"> </ModelTarget>
+        <ModelTarget name="ALeg2" trackingMode="car" motionHint="static" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects"> </ModelTarget>
+        <ModelTarget name="LargeScrew" trackingMode="car" motionHint="static" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects"> </ModelTarget>
+        <ModelTarget name="LongWithHole" trackingMode="car" motionHint="static" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects"> </ModelTarget>
+        <ModelTarget name="Long" trackingMode="car" motionHint="static" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects"> </ModelTarget>
+        <ModelTarget name="Short" trackingMode="car" motionHint="static" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects"> </ModelTarget>
+        <ModelTarget name="SmallScrew" trackingMode="car" motionHint="static" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects"> </ModelTarget>
+        <ModelTarget name="StepBottom" trackingMode="car" motionHint="static" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects"> </ModelTarget>
+        <ModelTarget name="StepTop" trackingMode="car" motionHint="static" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects"> </ModelTarget>
+        <ModelTarget name="WoodScrew" trackingMode="car" motionHint="static" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects"> </ModelTarget>
+    </Tracking>
+    <Assembly name="ALeg1" assemblyId="94d1859374a54d5ea35b9e00e60aa7f3">
+        <Part name="ALeg1" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="ALeg2" assemblyId="bfd9e382ef634bb5be0007aab716fe55">
+        <Part name="ALeg2" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="LargeScrew" assemblyId="f42b9304e3764740bebb4bcd6fccf320">
+        <Part name="LargeScrew" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="LongWithHole" assemblyId="b6358197c8b64867bd1ea1ad18197c88">
+        <Part name="LongWithHole" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="Long" assemblyId="9b6813a1d23746f7a2b52372f98c5fc4">
+        <Part name="Long" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="Short" assemblyId="8d89cb63d1d44c2589a06f8b77f763ab">
+        <Part name="Short" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="SmallScrew" assemblyId="3c681e211668448f9f0925d18d5d63c0">
+        <Part name="SmallScrew" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="StepBottom" assemblyId="2b81ac832b3f445d8fbf44c69b4d41b6">
+        <Part name="StepBottom" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="StepTop" assemblyId="5f874fa6e1834afcbbce94c58d8fece9">
+        <Part name="StepTop" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <Assembly name="WoodScrew" assemblyId="46e91bc27efe4023949e327414e852eb">
+        <Part name="WoodScrew" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+    <ModelTargetDatabase name="Bekvam_Colorless_test_2"> </ModelTargetDatabase>
+</QCARConfig>

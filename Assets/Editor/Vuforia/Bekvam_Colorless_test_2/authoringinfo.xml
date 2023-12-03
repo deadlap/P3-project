@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v6.1.2">
+        <ModelTarget name="ALeg1" targetId="110b245025964207818309c386753420" bbox="-0.142531 -0.010247 -0.110535 0.362716 0.010466 0.268215" version="13.0" toolVersion="v6.1.2" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects" realisticTextures="no" />
+        <ModelTarget name="ALeg2" targetId="3ba73361cea5474d86d03f9662c74722" bbox="-0.362715 -0.010332 -0.110613 0.142531 0.010381 0.268137" version="13.0" toolVersion="v6.1.2" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects" realisticTextures="no" />
+        <ModelTarget name="LargeScrew" targetId="a5edd81d5dbe420eb458c01973d69239" bbox="-0.007523 -0.000030 -0.007523 0.007530 0.062030 0.007530" version="13.0" toolVersion="v6.1.2" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects" realisticTextures="no" />
+        <ModelTarget name="LongWithHole" targetId="ec21cf6bb1c442bba834fd3b85c73a12" bbox="-0.175171 -0.020171 -0.010171 0.175171 0.020181 0.010176" version="13.0" toolVersion="v6.1.2" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects" realisticTextures="no" />
+        <ModelTarget name="Long" targetId="aa020c767710476bbe5676f17d365ee4" bbox="-0.175171 -0.020171 -0.010171 0.175171 0.020181 0.010176" version="13.0" toolVersion="v6.1.2" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects" realisticTextures="no" />
+        <ModelTarget name="Short" targetId="da1eb4344fae46bb95ef9950781fdb96" bbox="-0.157654 -0.020154 -0.010154 0.157654 0.020164 0.010159" version="13.0" toolVersion="v6.1.2" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects" realisticTextures="no" />
+        <ModelTarget name="SmallScrew" targetId="53fdb9fccdde40cda2ee08a5dca20055" bbox="-0.006025 -0.000022 -0.006025 0.006022 0.045022 0.006022" version="13.0" toolVersion="v6.1.2" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects" realisticTextures="no" />
+        <ModelTarget name="StepBottom" targetId="236e78d3f369487781b0788bdfe681ac" bbox="-0.197793 -0.010272 -0.069144 0.197793 0.010193 0.066193" version="13.0" toolVersion="v6.1.2" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects" realisticTextures="no" />
+        <ModelTarget name="StepTop" targetId="2f3b57c5b81b4782873aad61a371dcf5" bbox="-0.180176 -0.010176 -0.121114 0.180176 0.010225 0.120176" version="13.0" toolVersion="v6.1.2" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects" realisticTextures="no" />
+        <ModelTarget name="WoodScrew" targetId="f6825da77a4a48bd818ced756e3ec650" bbox="-0.003927 -0.015015 -0.003927 0.003929 0.015015 0.003929" version="13.0" toolVersion="v6.1.2" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="ALeg1" assemblyId="94d1859374a54d5ea35b9e00e60aa7f3">
+        <Part name="ALeg1" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="ALeg2" assemblyId="bfd9e382ef634bb5be0007aab716fe55">
+        <Part name="ALeg2" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="LargeScrew" assemblyId="f42b9304e3764740bebb4bcd6fccf320">
+        <Part name="LargeScrew" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="LongWithHole" assemblyId="b6358197c8b64867bd1ea1ad18197c88">
+        <Part name="LongWithHole" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="Long" assemblyId="9b6813a1d23746f7a2b52372f98c5fc4">
+        <Part name="Long" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="Short" assemblyId="8d89cb63d1d44c2589a06f8b77f763ab">
+        <Part name="Short" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="SmallScrew" assemblyId="3c681e211668448f9f0925d18d5d63c0">
+        <Part name="SmallScrew" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="StepBottom" assemblyId="2b81ac832b3f445d8fbf44c69b4d41b6">
+        <Part name="StepBottom" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="StepTop" assemblyId="5f874fa6e1834afcbbce94c58d8fece9">
+        <Part name="StepTop" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <Assembly name="WoodScrew" assemblyId="46e91bc27efe4023949e327414e852eb">
+        <Part name="WoodScrew" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+    <ModelTargetDatabase mtDBid="0375a821079a42ccbaecabdb01591ecf" name="Bekvam_Colorless_test_2" toolVersion="v6.1.2" version="36.0" />
+</QCARInfo>

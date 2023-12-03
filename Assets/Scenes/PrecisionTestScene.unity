@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -367,7 +367,7 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: Long
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDataSetPath: Vuforia/Bekvam_Colorless_test_2.xml
   mBaseSize: 0.350342
   mAspectRatioXY: 0.11517888
   mAspectRatioXZ: 0.058077533
@@ -385,9 +385,9 @@ MonoBehaviour:
   m2DGuideViewMaterial: {fileID: 0}
   m3DGuideViewMaterial: {fileID: 0}
   mSelectedGuideView: 
-  mMotionHint: 1
+  mMotionHint: 0
   mTrackingMode: 1
-  mTrackingOptimization: 0
+  mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
   mPreview: {fileID: 66001639}
@@ -407,7 +407,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 66001638}
   mHiddenRoot: {fileID: 0}
   mTargetName: Long
-  mDatasetName: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
   mCastedBehaviour: {fileID: 66001638}
   mModelScale: {x: 0.350342, y: 0.040352, z: 0.020347}
   mModelTargetPreview: {fileID: 0}
@@ -890,27 +890,27 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: WoodScrew
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Bekvam_Taburet_No_Coloring.xml
-  mBaseSize: 0.0070350002
-  mAspectRatioXY: 4.2686563
+  mDataSetPath: Vuforia/Bekvam_Colorless_test_2.xml
+  mBaseSize: 0.007856
+  mAspectRatioXY: 3.8225558
   mAspectRatioXZ: 1
   mShowBoundingBox: 0
   mOverrideSnappingPose: 0
-  mBBoxMin: {x: -0.00352, y: -0.015015, z: -0.00352}
-  mBBoxMax: {x: 0.003515, y: 0.015015, z: 0.003515}
+  mBBoxMin: {x: -0.003927, y: -0.015015, z: -0.003927}
+  mBBoxMax: {x: 0.003929, y: 0.015015, z: 0.003929}
   mPreviewImage: {fileID: 0}
-  mLength: 0.0070350002
-  mWidth: 0.030029997
-  mHeight: 0.0070350002
+  mLength: 0.007856
+  mWidth: 0.03003
+  mHeight: 0.007856
   m3DGuideViewModel: {fileID: 0}
   m2DGuideViewImage: {fileID: 0}
   mGuideViewDisplayMode: 0
   m2DGuideViewMaterial: {fileID: 0}
   m3DGuideViewMaterial: {fileID: 0}
   mSelectedGuideView: 
-  mMotionHint: 1
+  mMotionHint: 0
   mTrackingMode: 1
-  mTrackingOptimization: 0
+  mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
   mPreview: {fileID: 390193479}
@@ -998,9 +998,9 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 390193476}
   mHiddenRoot: {fileID: 0}
   mTargetName: WoodScrew
-  mDatasetName: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
   mCastedBehaviour: {fileID: 390193476}
-  mModelScale: {x: 0.0070350002, y: 0.030029997, z: 0.0070350002}
+  mModelScale: {x: 0.007856, y: 0.03003, z: 0.007856}
   mModelTargetPreview: {fileID: 0}
 --- !u!1 &426902095
 GameObject:
@@ -1697,7 +1697,7 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: ALeg1
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDataSetPath: Vuforia/Bekvam_Colorless_test_2.xml
   mBaseSize: 0.505247
   mAspectRatioXY: 0.04099579
   mAspectRatioXZ: 0.7496334
@@ -1707,7 +1707,7 @@ MonoBehaviour:
   mBBoxMax: {x: 0.362716, y: 0.010466, z: 0.268215}
   mPreviewImage: {fileID: 0}
   mLength: 0.505247
-  mWidth: 0.020713001
+  mWidth: 0.020713
   mHeight: 0.37875
   m3DGuideViewModel: {fileID: 0}
   m2DGuideViewImage: {fileID: 0}
@@ -1715,9 +1715,9 @@ MonoBehaviour:
   m2DGuideViewMaterial: {fileID: 0}
   m3DGuideViewMaterial: {fileID: 0}
   mSelectedGuideView: 
-  mMotionHint: 1
+  mMotionHint: 0
   mTrackingMode: 1
-  mTrackingOptimization: 0
+  mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
   mPreview: {fileID: 742568270}
@@ -1737,9 +1737,9 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 742568269}
   mHiddenRoot: {fileID: 0}
   mTargetName: ALeg1
-  mDatasetName: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
   mCastedBehaviour: {fileID: 742568269}
-  mModelScale: {x: 0.505247, y: 0.020713001, z: 0.37875}
+  mModelScale: {x: 0.505247, y: 0.020713, z: 0.37875}
   mModelTargetPreview: {fileID: 0}
 --- !u!1 &752726316
 GameObject:
@@ -1861,7 +1861,7 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: LargeScrew
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDataSetPath: Vuforia/Bekvam_Colorless_test_2.xml
   mBaseSize: 0.015053
   mAspectRatioXY: 4.122766
   mAspectRatioXZ: 1
@@ -1879,9 +1879,9 @@ MonoBehaviour:
   m2DGuideViewMaterial: {fileID: 0}
   m3DGuideViewMaterial: {fileID: 0}
   mSelectedGuideView: 
-  mMotionHint: 1
+  mMotionHint: 0
   mTrackingMode: 1
-  mTrackingOptimization: 0
+  mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
   mPreview: {fileID: 752726321}
@@ -1901,7 +1901,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 752726320}
   mHiddenRoot: {fileID: 0}
   mTargetName: LargeScrew
-  mDatasetName: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
   mCastedBehaviour: {fileID: 752726320}
   mModelScale: {x: 0.015053, y: 0.06206, z: 0.015053}
   mModelTargetPreview: {fileID: 0}
@@ -2483,7 +2483,7 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: Short
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDataSetPath: Vuforia/Bekvam_Colorless_test_2.xml
   mBaseSize: 0.315308
   mAspectRatioXY: 0.12786861
   mAspectRatioXZ: 0.06442272
@@ -2501,9 +2501,9 @@ MonoBehaviour:
   m2DGuideViewMaterial: {fileID: 0}
   m3DGuideViewMaterial: {fileID: 0}
   mSelectedGuideView: 
-  mMotionHint: 1
+  mMotionHint: 0
   mTrackingMode: 1
-  mTrackingOptimization: 0
+  mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
   mPreview: {fileID: 983448582}
@@ -2523,7 +2523,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 983448581}
   mHiddenRoot: {fileID: 0}
   mTargetName: Short
-  mDatasetName: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
   mCastedBehaviour: {fileID: 983448581}
   mModelScale: {x: 0.315308, y: 0.040317997, z: 0.020312998}
   mModelTargetPreview: {fileID: 0}
@@ -2947,7 +2947,7 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: LongWithHole
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDataSetPath: Vuforia/Bekvam_Colorless_test_2.xml
   mBaseSize: 0.350342
   mAspectRatioXY: 0.11517888
   mAspectRatioXZ: 0.058077533
@@ -2965,9 +2965,9 @@ MonoBehaviour:
   m2DGuideViewMaterial: {fileID: 0}
   m3DGuideViewMaterial: {fileID: 0}
   mSelectedGuideView: 
-  mMotionHint: 1
+  mMotionHint: 0
   mTrackingMode: 1
-  mTrackingOptimization: 0
+  mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
   mPreview: {fileID: 1197391315}
@@ -3003,7 +3003,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 1197391313}
   mHiddenRoot: {fileID: 0}
   mTargetName: LongWithHole
-  mDatasetName: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
   mCastedBehaviour: {fileID: 1197391313}
   mModelScale: {x: 0.350342, y: 0.040352, z: 0.020347}
   mModelTargetPreview: {fileID: 0}
@@ -3724,7 +3724,7 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: ALeg2
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDataSetPath: Vuforia/Bekvam_Colorless_test_2.xml
   mBaseSize: 0.505246
   mAspectRatioXY: 0.040995877
   mAspectRatioXZ: 0.7496349
@@ -3742,9 +3742,9 @@ MonoBehaviour:
   m2DGuideViewMaterial: {fileID: 0}
   m3DGuideViewMaterial: {fileID: 0}
   mSelectedGuideView: 
-  mMotionHint: 1
+  mMotionHint: 0
   mTrackingMode: 1
-  mTrackingOptimization: 0
+  mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
   mPreview: {fileID: 1576178406}
@@ -3764,7 +3764,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 1576178405}
   mHiddenRoot: {fileID: 0}
   mTargetName: ALeg2
-  mDatasetName: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
   mCastedBehaviour: {fileID: 1576178405}
   mModelScale: {x: 0.505246, y: 0.020713001, z: 0.37875003}
   mModelTargetPreview: {fileID: 0}
@@ -4050,7 +4050,7 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: SmallScrew
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDataSetPath: Vuforia/Bekvam_Colorless_test_2.xml
   mBaseSize: 0.012047
   mAspectRatioXY: 3.7390223
   mAspectRatioXZ: 1
@@ -4068,9 +4068,9 @@ MonoBehaviour:
   m2DGuideViewMaterial: {fileID: 0}
   m3DGuideViewMaterial: {fileID: 0}
   mSelectedGuideView: 
-  mMotionHint: 1
+  mMotionHint: 0
   mTrackingMode: 1
-  mTrackingOptimization: 0
+  mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
   mPreview: {fileID: 1722747525}
@@ -4090,7 +4090,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 1722747524}
   mHiddenRoot: {fileID: 0}
   mTargetName: SmallScrew
-  mDatasetName: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
   mCastedBehaviour: {fileID: 1722747524}
   mModelScale: {x: 0.012047, y: 0.045044, z: 0.012047}
   mModelTargetPreview: {fileID: 0}
@@ -4310,7 +4310,7 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: StepBottom
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDataSetPath: Vuforia/Bekvam_Colorless_test_2.xml
   mBaseSize: 0.395586
   mAspectRatioXY: 0.051733375
   mAspectRatioXZ: 0.34211776
@@ -4328,9 +4328,9 @@ MonoBehaviour:
   m2DGuideViewMaterial: {fileID: 0}
   m3DGuideViewMaterial: {fileID: 0}
   mSelectedGuideView: 
-  mMotionHint: 1
+  mMotionHint: 0
   mTrackingMode: 1
-  mTrackingOptimization: 0
+  mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
   mPreview: {fileID: 1842815297}
@@ -4350,7 +4350,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 1842815296}
   mHiddenRoot: {fileID: 0}
   mTargetName: StepBottom
-  mDatasetName: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
   mCastedBehaviour: {fileID: 1842815296}
   mModelScale: {x: 0.395586, y: 0.020465, z: 0.135337}
   mModelTargetPreview: {fileID: 0}
@@ -4585,7 +4585,7 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: StepTop
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDataSetPath: Vuforia/Bekvam_Colorless_test_2.xml
   mBaseSize: 0.360352
   mAspectRatioXY: 0.05661409
   mAspectRatioXZ: 0.6695953
@@ -4603,9 +4603,9 @@ MonoBehaviour:
   m2DGuideViewMaterial: {fileID: 0}
   m3DGuideViewMaterial: {fileID: 0}
   mSelectedGuideView: 
-  mMotionHint: 1
+  mMotionHint: 0
   mTrackingMode: 1
-  mTrackingOptimization: 0
+  mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
   mPreview: {fileID: 1941101841}
@@ -4625,7 +4625,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 1941101840}
   mHiddenRoot: {fileID: 0}
   mTargetName: StepTop
-  mDatasetName: Vuforia/Bekvam_Taburet_No_Coloring.xml
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
   mCastedBehaviour: {fileID: 1941101840}
   mModelScale: {x: 0.360352, y: 0.020401001, z: 0.24129002}
   mModelTargetPreview: {fileID: 0}
