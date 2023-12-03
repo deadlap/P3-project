@@ -5,8 +5,9 @@ using UnityEngine;
 public class StepGenerator : MonoBehaviour {
     [SerializeField] GameObject buttonPrefab;
     [SerializeField] GameObject instructionParentObject;
-    void Start(){
-        GenerateStep();
+    void Start() {
+        var delay = 0.001f;
+        Invoke(nameof(GenerateStep), delay);
     }
 
     public void GenerateStep(){

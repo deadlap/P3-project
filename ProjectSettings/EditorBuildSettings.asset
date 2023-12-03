@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QRScanPage.unity
     guid: 37b54a272f925404988918e0a041f0be
+  - enabled: 1
+    path: "Assets/Scenes/Bekv\xE4mItemPage.unity"
+    guid: b3045598eb687a04a8ccea32cfb3cffa
+  - enabled: 1
+    path: "Assets/Scenes/Bekv\xE4mManual.unity"
+    guid: a0ac8c029b9be7b4ca5afd44bfd97913
   m_configObjects: {}

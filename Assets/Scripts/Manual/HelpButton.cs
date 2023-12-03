@@ -64,6 +64,7 @@ public class HelpButton : MonoBehaviour
 
     void StartSetActive()
     {
+        if(!manualButton || !manualObject) return;
         manualButton.SetActive(true);
         manualObject.SetActive(false);
     }

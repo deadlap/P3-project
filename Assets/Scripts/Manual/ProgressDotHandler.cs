@@ -33,7 +33,7 @@ public class ProgressDotHandler : MonoBehaviour
             GameObject newDot = Instantiate(dotPrefab, transform.position, Quaternion.identity, gameObject.transform);
             generatedDots.Add(newDot);
         }
-        HighlightDot(1);
+        HighlightDot(StepCounter.CurrentStep);
     }
 
     public void HighlightDot(int currentStep)
