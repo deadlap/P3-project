@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1366,7 +1366,7 @@ GameObject:
   - component: {fileID: 416451349}
   - component: {fileID: 416451352}
   - component: {fileID: 416451351}
-  - component: {fileID: 416451350}
+  - component: {fileID: 416451353}
   m_Layer: 0
   m_Name: ALeg2
   m_TagString: Untagged
@@ -1390,25 +1390,6 @@ Transform:
   - {fileID: 170017498}
   m_Father: {fileID: 1573476609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &416451350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 416451348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 416451352}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: ALeg2
-  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
-  mCastedBehaviour: {fileID: 416451352}
-  mModelScale: {x: 0.505246, y: 0.020713001, z: 0.37875003}
-  mModelTargetPreview: {fileID: 0}
 --- !u!114 &416451351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1450,9 +1431,9 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectFound
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartDetected
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 416451348}
@@ -1465,9 +1446,9 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectLost
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartLost
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 416451348}
@@ -1517,8 +1498,27 @@ MonoBehaviour:
   mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
-  mPreview: {fileID: 416451350}
+  mPreview: {fileID: 416451353}
   mAutoValidationDataSetName: 
+--- !u!114 &416451353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416451348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 416451352}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: ALeg2
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
+  mCastedBehaviour: {fileID: 416451352}
+  mModelScale: {x: 0.505246, y: 0.020713001, z: 0.37875003}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1 &438897609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1530,7 +1530,7 @@ GameObject:
   - component: {fileID: 438897610}
   - component: {fileID: 438897613}
   - component: {fileID: 438897612}
-  - component: {fileID: 438897611}
+  - component: {fileID: 438897614}
   m_Layer: 0
   m_Name: ALeg1
   m_TagString: Untagged
@@ -1554,25 +1554,6 @@ Transform:
   - {fileID: 1486107279}
   m_Father: {fileID: 1573476609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &438897611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 438897609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 438897613}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: ALeg1
-  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
-  mCastedBehaviour: {fileID: 438897613}
-  mModelScale: {x: 0.505247, y: 0.020713001, z: 0.37875}
-  mModelTargetPreview: {fileID: 0}
 --- !u!114 &438897612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1614,9 +1595,9 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectFound
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartDetected
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 438897609}
@@ -1629,9 +1610,9 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectLost
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartLost
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 438897609}
@@ -1681,8 +1662,27 @@ MonoBehaviour:
   mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
-  mPreview: {fileID: 438897611}
+  mPreview: {fileID: 438897614}
   mAutoValidationDataSetName: 
+--- !u!114 &438897614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438897609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 438897613}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: ALeg1
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
+  mCastedBehaviour: {fileID: 438897613}
+  mModelScale: {x: 0.505247, y: 0.020713001, z: 0.37875}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1 &448767004
 GameObject:
   m_ObjectHideFlags: 0
@@ -2946,7 +2946,7 @@ GameObject:
   - component: {fileID: 722745472}
   - component: {fileID: 722745475}
   - component: {fileID: 722745474}
-  - component: {fileID: 722745473}
+  - component: {fileID: 722745476}
   m_Layer: 0
   m_Name: LargeScrew
   m_TagString: Untagged
@@ -2970,25 +2970,6 @@ Transform:
   - {fileID: 1396519066}
   m_Father: {fileID: 1573476609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &722745473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 722745471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 722745475}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: LargeScrew
-  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
-  mCastedBehaviour: {fileID: 722745475}
-  mModelScale: {x: 0.015053, y: 0.06206, z: 0.015053}
-  mModelTargetPreview: {fileID: 0}
 --- !u!114 &722745474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3030,9 +3011,9 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectFound
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartDetected
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 722745471}
@@ -3045,9 +3026,9 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectLost
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartLost
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 722745471}
@@ -3097,8 +3078,27 @@ MonoBehaviour:
   mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
-  mPreview: {fileID: 722745473}
+  mPreview: {fileID: 722745476}
   mAutoValidationDataSetName: 
+--- !u!114 &722745476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722745471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 722745475}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: LargeScrew
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
+  mCastedBehaviour: {fileID: 722745475}
+  mModelScale: {x: 0.015053, y: 0.06206, z: 0.015053}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1 &723480619
 GameObject:
   m_ObjectHideFlags: 0
@@ -4262,7 +4262,7 @@ GameObject:
   - component: {fileID: 869044831}
   - component: {fileID: 869044834}
   - component: {fileID: 869044833}
-  - component: {fileID: 869044832}
+  - component: {fileID: 869044835}
   m_Layer: 0
   m_Name: LongWithHole
   m_TagString: Untagged
@@ -4286,25 +4286,6 @@ Transform:
   - {fileID: 723480620}
   m_Father: {fileID: 1573476609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &869044832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 869044830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 869044834}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: LongWithHole
-  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
-  mCastedBehaviour: {fileID: 869044834}
-  mModelScale: {x: 0.350342, y: 0.040352, z: 0.020347}
-  mModelTargetPreview: {fileID: 0}
 --- !u!114 &869044833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4413,8 +4394,27 @@ MonoBehaviour:
   mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
-  mPreview: {fileID: 869044832}
+  mPreview: {fileID: 869044835}
   mAutoValidationDataSetName: 
+--- !u!114 &869044835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869044830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 869044834}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: LongWithHole
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
+  mCastedBehaviour: {fileID: 869044834}
+  mModelScale: {x: 0.350342, y: 0.040352, z: 0.020347}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1 &870740377
 GameObject:
   m_ObjectHideFlags: 0
@@ -5249,7 +5249,7 @@ GameObject:
   - component: {fileID: 964898821}
   - component: {fileID: 964898824}
   - component: {fileID: 964898823}
-  - component: {fileID: 964898822}
+  - component: {fileID: 964898825}
   m_Layer: 0
   m_Name: StepBottom
   m_TagString: Untagged
@@ -5273,25 +5273,6 @@ Transform:
   - {fileID: 525138452}
   m_Father: {fileID: 1573476609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &964898822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 964898820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 964898824}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: StepBottom
-  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
-  mCastedBehaviour: {fileID: 964898824}
-  mModelScale: {x: 0.395586, y: 0.020465, z: 0.135337}
-  mModelTargetPreview: {fileID: 0}
 --- !u!114 &964898823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5333,9 +5314,9 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectFound
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartDetected
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 964898820}
@@ -5348,9 +5329,9 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectLost
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartLost
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 964898820}
@@ -5400,8 +5381,27 @@ MonoBehaviour:
   mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
-  mPreview: {fileID: 964898822}
+  mPreview: {fileID: 964898825}
   mAutoValidationDataSetName: 
+--- !u!114 &964898825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964898820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 964898824}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: StepBottom
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
+  mCastedBehaviour: {fileID: 964898824}
+  mModelScale: {x: 0.395586, y: 0.020465, z: 0.135337}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1 &970857072
 GameObject:
   m_ObjectHideFlags: 0
@@ -5787,10 +5787,10 @@ RectTransform:
   - {fileID: 1059837871}
   m_Father: {fileID: 1590387490}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -787}
-  m_SizeDelta: {x: 960, y: 180}
+  m_SizeDelta: {x: 860, y: 206}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &995517589
 GameObject:
@@ -6549,7 +6549,7 @@ GameObject:
   - component: {fileID: 1072465603}
   - component: {fileID: 1072465606}
   - component: {fileID: 1072465605}
-  - component: {fileID: 1072465604}
+  - component: {fileID: 1072465607}
   m_Layer: 0
   m_Name: SmallScrew
   m_TagString: Untagged
@@ -6573,25 +6573,6 @@ Transform:
   - {fileID: 215888724}
   m_Father: {fileID: 1573476609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1072465604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1072465602}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1072465606}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: SmallScrew
-  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
-  mCastedBehaviour: {fileID: 1072465606}
-  mModelScale: {x: 0.012047, y: 0.045044, z: 0.012047}
-  mModelTargetPreview: {fileID: 0}
 --- !u!114 &1072465605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6633,9 +6614,9 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectFound
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartDetected
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1072465602}
@@ -6648,9 +6629,9 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectLost
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartLost
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1072465602}
@@ -6700,8 +6681,27 @@ MonoBehaviour:
   mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
-  mPreview: {fileID: 1072465604}
+  mPreview: {fileID: 1072465607}
   mAutoValidationDataSetName: 
+--- !u!114 &1072465607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072465602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1072465606}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: SmallScrew
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
+  mCastedBehaviour: {fileID: 1072465606}
+  mModelScale: {x: 0.012047, y: 0.045044, z: 0.012047}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1 &1083462459
 GameObject:
   m_ObjectHideFlags: 0
@@ -6809,6 +6809,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1110772581}
   m_CullTransparentMesh: 1
+--- !u!1001 &1111320992
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6142254972240585092, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
+      propertyPath: m_Name
+      value: "Bekv\xE4m Taburet Prefab"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806765283743021886, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806765283743021886, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806765283743021886, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806765283743021886, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806765283743021886, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806765283743021886, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806765283743021886, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806765283743021886, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806765283743021886, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806765283743021886, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
 --- !u!1 &1123571317
 GameObject:
   m_ObjectHideFlags: 0
@@ -7393,7 +7450,7 @@ GameObject:
   - component: {fileID: 1232585358}
   - component: {fileID: 1232585361}
   - component: {fileID: 1232585360}
-  - component: {fileID: 1232585359}
+  - component: {fileID: 1232585362}
   m_Layer: 0
   m_Name: WoodScrew
   m_TagString: Untagged
@@ -7417,25 +7474,6 @@ Transform:
   - {fileID: 1807271945}
   m_Father: {fileID: 1573476609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1232585359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232585357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1232585361}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: WoodScrew
-  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
-  mCastedBehaviour: {fileID: 1232585361}
-  mModelScale: {x: 0.007856, y: 0.03003, z: 0.007856}
-  mModelTargetPreview: {fileID: 0}
 --- !u!114 &1232585360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7477,9 +7515,9 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectFound
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartDetected
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1232585357}
@@ -7492,9 +7530,9 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectLost
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartLost
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1232585357}
@@ -7544,8 +7582,27 @@ MonoBehaviour:
   mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
-  mPreview: {fileID: 1232585359}
+  mPreview: {fileID: 1232585362}
   mAutoValidationDataSetName: 
+--- !u!114 &1232585362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232585357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1232585361}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: WoodScrew
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
+  mCastedBehaviour: {fileID: 1232585361}
+  mModelScale: {x: 0.007856, y: 0.03003, z: 0.007856}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1 &1238394142
 GameObject:
   m_ObjectHideFlags: 0
@@ -10383,7 +10440,7 @@ GameObject:
   - component: {fileID: 1712636470}
   - component: {fileID: 1712636473}
   - component: {fileID: 1712636472}
-  - component: {fileID: 1712636471}
+  - component: {fileID: 1712636474}
   m_Layer: 0
   m_Name: Short
   m_TagString: Untagged
@@ -10407,25 +10464,6 @@ Transform:
   - {fileID: 571780728}
   m_Father: {fileID: 1573476609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1712636471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712636469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1712636473}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Short
-  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
-  mCastedBehaviour: {fileID: 1712636473}
-  mModelScale: {x: 0.315308, y: 0.040317997, z: 0.020312998}
-  mModelTargetPreview: {fileID: 0}
 --- !u!114 &1712636472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10467,9 +10505,9 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectFound
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartDetected
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1712636469}
@@ -10482,9 +10520,9 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectLost
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartLost
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1712636469}
@@ -10534,8 +10572,27 @@ MonoBehaviour:
   mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
-  mPreview: {fileID: 1712636471}
+  mPreview: {fileID: 1712636474}
   mAutoValidationDataSetName: 
+--- !u!114 &1712636474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712636469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1712636473}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Short
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
+  mCastedBehaviour: {fileID: 1712636473}
+  mModelScale: {x: 0.315308, y: 0.040317997, z: 0.020312998}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1 &1716084199
 GameObject:
   m_ObjectHideFlags: 0
@@ -12132,23 +12189,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   steps:
-  - parts: []
-    amounts: 
+  - parts:
+    - {fileID: 438897609}
+    - {fileID: 869044830}
+    - {fileID: 1997785785}
+    - {fileID: 722745471}
+    amounts: 01000000010000000100000002000000
+    instruction: {fileID: 6142254972240585092, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
+  - parts:
+    - {fileID: 1712636469}
+    - {fileID: 722745471}
+    amounts: 0200000002000000
+    instruction: {fileID: 6142254972240585092, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
+  - parts:
+    - {fileID: 964898820}
+    - {fileID: 1232585357}
+    amounts: 0100000002000000
     instruction: {fileID: 6142254972240585092, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
   - parts: []
     amounts: 
     instruction: {fileID: 6142254972240585092, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
-  - parts: []
-    amounts: 
+  - parts:
+    - {fileID: 416451348}
+    - {fileID: 722745471}
+    amounts: 0100000004000000
     instruction: {fileID: 6142254972240585092, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
-  - parts: []
-    amounts: 
-    instruction: {fileID: 6142254972240585092, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
-  - parts: []
-    amounts: 
-    instruction: {fileID: 6142254972240585092, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
-  - parts: []
-    amounts: 
+  - parts:
+    - {fileID: 1942416767}
+    - {fileID: 1072465602}
+    amounts: 0100000003000000
     instruction: {fileID: 6142254972240585092, guid: 47163d864c34b844a88f5414cacc30ee, type: 3}
   - parts: []
     amounts: 
@@ -12512,7 +12581,7 @@ GameObject:
   - component: {fileID: 1942416768}
   - component: {fileID: 1942416771}
   - component: {fileID: 1942416770}
-  - component: {fileID: 1942416769}
+  - component: {fileID: 1942416772}
   m_Layer: 0
   m_Name: StepTop
   m_TagString: Untagged
@@ -12536,25 +12605,6 @@ Transform:
   - {fileID: 724430733}
   m_Father: {fileID: 1573476609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1942416769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1942416767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1942416771}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: StepTop
-  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
-  mCastedBehaviour: {fileID: 1942416771}
-  mModelScale: {x: 0.360352, y: 0.020401001, z: 0.24129002}
-  mModelTargetPreview: {fileID: 0}
 --- !u!114 &1942416770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12596,9 +12646,9 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectFound
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartDetected
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1942416767}
@@ -12611,9 +12661,9 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectLost
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartLost
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1942416767}
@@ -12663,8 +12713,27 @@ MonoBehaviour:
   mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
-  mPreview: {fileID: 1942416769}
+  mPreview: {fileID: 1942416772}
   mAutoValidationDataSetName: 
+--- !u!114 &1942416772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942416767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1942416771}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: StepTop
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
+  mCastedBehaviour: {fileID: 1942416771}
+  mModelScale: {x: 0.360352, y: 0.020401001, z: 0.24129002}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1 &1997785785
 GameObject:
   m_ObjectHideFlags: 0
@@ -12676,7 +12745,7 @@ GameObject:
   - component: {fileID: 1997785786}
   - component: {fileID: 1997785789}
   - component: {fileID: 1997785788}
-  - component: {fileID: 1997785787}
+  - component: {fileID: 1997785790}
   m_Layer: 0
   m_Name: Long
   m_TagString: Untagged
@@ -12700,25 +12769,6 @@ Transform:
   - {fileID: 2010669514}
   m_Father: {fileID: 1573476609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1997785787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1997785785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1997785789}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Long
-  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
-  mCastedBehaviour: {fileID: 1997785789}
-  mModelScale: {x: 0.350342, y: 0.040352, z: 0.020347}
-  mModelTargetPreview: {fileID: 0}
 --- !u!114 &1997785788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12760,9 +12810,9 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectFound
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartDetected
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1997785785}
@@ -12775,9 +12825,9 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: WriteObjectName, Assembly-CSharp
-        m_MethodName: OnObjectLost
+      - m_Target: {fileID: 764137092}
+        m_TargetAssemblyTypeName: DetectionManager, Assembly-CSharp
+        m_MethodName: PartLost
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1997785785}
@@ -12827,8 +12877,27 @@ MonoBehaviour:
   mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
-  mPreview: {fileID: 1997785787}
+  mPreview: {fileID: 1997785790}
   mAutoValidationDataSetName: 
+--- !u!114 &1997785790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997785785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1997785789}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Long
+  mDatasetName: Vuforia/Bekvam_Colorless_test_2.xml
+  mCastedBehaviour: {fileID: 1997785789}
+  mModelScale: {x: 0.350342, y: 0.040352, z: 0.020347}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1 &2009124747
 GameObject:
   m_ObjectHideFlags: 0
@@ -13789,3 +13858,4 @@ SceneRoots:
   - {fileID: 971101902}
   - {fileID: 412940762}
   - {fileID: 516651898}
+  - {fileID: 1111320992}

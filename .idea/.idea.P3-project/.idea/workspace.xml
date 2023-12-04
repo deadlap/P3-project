@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="769c6849-1082-40ec-8120-d95da2eb4e8b" name="Changes" comment="" />
+    <list default="true" id="769c6849-1082-40ec-8120-d95da2eb4e8b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.P3-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.P3-project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bekväm/Bekväm Step 3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bekväm/Bekväm Step 3.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Graphics/UI/Model Render Texture.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Graphics/UI/Model Render Texture.renderTexture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BekvämItemPage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BekvämItemPage.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BekvämManual.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BekvämManual.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ItemPage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ItemPage.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PrecisionTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PrecisionTestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BekvamAnimationHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BekvamAnimationHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manual/StepGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manual/StepGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,12 +21,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../MED3-Spil/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Input/PinchZoom.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BekvamAnimationHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manual/InstructionAnimationManipulator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manual/RatingScale.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manual/SliderDrag.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Project-P202/Assets/Scripts/ScrollWheels/NumberScrollRect.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,7 +59,7 @@
       <method v="2" />
     </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\GitHub\P3-project -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\GitHub\P3-project" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -101,6 +109,7 @@
       <workItem from="1701080685497" duration="9447000" />
       <workItem from="1701166640380" duration="13728000" />
       <workItem from="1701615288367" duration="15696000" />
+      <workItem from="1701685431028" duration="2022000" />
     </task>
     <servers />
   </component>
