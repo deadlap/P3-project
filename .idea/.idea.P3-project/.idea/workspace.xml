@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="769c6849-1082-40ec-8120-d95da2eb4e8b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.P3-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.P3-project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bekväm/Bekväm Step 3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bekväm/Bekväm Step 3.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Graphics/UI/Model Render Texture.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Graphics/UI/Model Render Texture.renderTexture" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BekvämItemPage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BekvämItemPage.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/BekvämManual.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BekvämManual.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ItemPage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ItemPage.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PrecisionTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PrecisionTestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BekvamAnimationHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BekvamAnimationHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manual/StepGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manual/StepGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
     </list>

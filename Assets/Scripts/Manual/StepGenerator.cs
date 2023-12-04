@@ -1,12 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class StepGenerator : MonoBehaviour {
     [SerializeField] GameObject buttonPrefab;
     [SerializeField] GameObject instructionParentObject;
     void Start() {
-        var delay = 0.001f;
+        var delay = 0.00001f;
         Invoke(nameof(GenerateStep), delay);
     }
 
@@ -34,6 +36,17 @@ public class StepGenerator : MonoBehaviour {
             foreach (Transform child in instructionParentObject.transform){
                 Destroy(child.gameObject);
             }
+        }
+    }
+
+    void Update() {
+        switch (transform.childCount) {
+            case < 4:
+                GetComponent<GridLayoutGroup>().cellSize = new Vector2(250, 250); 
+                break;
+            case > 3:
+                GetComponent<GridLayoutGroup>().cellSize = new Vector2(190, 190);
+                break;
         }
     }
 }
